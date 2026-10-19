@@ -1,0 +1,127 @@
+Script started on 2026-10-19 23:50:05+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="98" LINES="31"]
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ systemctl status nh[Kginx
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;32m●[0m nginx.service - My Custom Nginx Service[m
+     Loaded: loaded (]8;;file://devops/etc/systemd/system/nginx.service\/etc/systemd/system/nginx.service]8;;\; [0;1;38:5:185mdisabled[0m; preset: [0;1;32menabled[0m)[m]8;;\
+     Active: [0;1;32mactive (running)[0m since Mon 2026-10-19 23:43:32 +03; 6min ago[m
+ Invocation: c062c579571544e28ccbda958e7f0685[m
+       Docs: ]8;;man:nginx(8)\man:nginx(8)]8;;\[m]8;;\
+    Process: 12139 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exit[m[7m>[27m
+    Process: 12140 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, statu[m[7m>[27m
+   Main PID: 12142 (nginx)[m
+      Tasks: 2[0;38:5:245m (limit: 1581)[0m[m
+     Memory: 2.3M (peak: 2.6M)[m
+        CPU: 26ms[m
+     CGroup: /system.slice/nginx.service[m
+             ├─[0;38:5:245m12142 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[0m[m
+             └─[0;38:5:245m12143 "nginx: worker process"[0m[m
+[m
+Oct 19 23:43:31 devops systemd[1]: Starting nginx.service - My Custom Nginx Service...[m
+Oct 19 23:43:32 devops systemd[1]: Started nginx.service - My Custom Nginx Service.[m
+[7mlines 1-17/17 (END)[27m[K[K[?1l>]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ systemctl status nginx[1P[1P[1P[1P[1P[1P[1@d[1@i[1@s[4@able
+[?2004l]133;C\]666;vte.shell.preexec!\Synchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install disable nginx
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ systemctl disable nginx[C[C[C[C[C[C[1Pstatus[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;32m●[0m nginx.service - My Custom Nginx Service[m
+     Loaded: loaded (]8;;file://devops/etc/systemd/system/nginx.service\/etc/systemd/system/nginx.service]8;;\; [0;1;38:5:185mdisabled[0m; preset: [0;1;32menabled[0m)[m]8;;\
+     Active: [0;1;32mactive (running)[0m since Mon 2026-10-19 23:43:32 +03; 7min ago[m
+ Invocation: c062c579571544e28ccbda958e7f0685[m
+       Docs: ]8;;man:nginx(8)\man:nginx(8)]8;;\[m]8;;\
+   Main PID: 12142 (nginx)[m
+      Tasks: 2[0;38:5:245m (limit: 1581)[0m[m
+     Memory: 2.3M (peak: 2.6M)[m
+        CPU: 26ms[m
+     CGroup: /system.slice/nginx.service[m
+             ├─[0;38:5:245m12142 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[0m[m
+             └─[0;38:5:245m12143 "nginx: worker process"[0m[m
+[m
+Oct 19 23:43:31 devops systemd[1]: Starting nginx.service - My Custom Nginx Service...[m
+Oct 19 23:43:32 devops systemd[1]: Started nginx.service - My Custom Nginx Service.[m
+[K[?1l>]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ systemctl status nginx[1P[1P[1P[1P[1@o[1@p
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ systemctl stop nginx[2@atus[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=○ nginx.service - My Custom Nginx Service[m
+     Loaded: loaded (]8;;file://devops/etc/systemd/system/nginx.service\/etc/systemd/system/nginx.service]8;;\; [0;1;38:5:185mdisabled[0m; preset: [0;1;32menabled[0m)[m]8;;\
+     Active: inactive (dead)[m
+       Docs: ]8;;man:nginx(8)\man:nginx(8)]8;;\[m]8;;\
+[m
+Oct 19 23:32:19 devops systemd[1]: Starting nginx.service - A high performance web server and a r[m[7m>[27m
+Oct 19 23:32:19 devops systemd[1]: Started nginx.service - A high performance web server and a re[m[7m>[27m
+Oct 19 23:33:54 devops systemd[1]: Stopping nginx.service - A high performance web server and a r[m[7m>[27m
+Oct 19 23:33:54 devops systemd[1]: nginx.service: Deactivated successfully.[m
+Oct 19 23:33:54 devops systemd[1]: Stopped nginx.service - A high performance web server and a re[m[7m>[27m
+Oct 19 23:43:31 devops systemd[1]: Starting nginx.service - My Custom Nginx Service...[m
+Oct 19 23:43:32 devops systemd[1]: Started nginx.service - My Custom Nginx Service.[m
+Oct 19 23:51:19 devops systemd[1]: Stopping nginx.service - My Custom Nginx Service...[m
+Oct 19 23:51:19 devops systemd[1]: nginx.service: Deactivated successfully.[m
+Oct 19 23:51:19 devops systemd[1]: Stopped nginx.service - My Custom Nginx Service.[m
+[7mlines 1-15/15 (END)[27m[K[K[7mlines 1-15/15 (END)[27m[K[K[?1l>]666;vte.shell.postexec=3\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ systemctl status nginx[2Pop[C[C[C[C[C[C[2@atus[C[C[C[C[C[C[1@disable[C[C[C[C[C[C[1Pstatus[C[C[C[C[C[Cexit[Kjava --version sudo update-alternatives --config java[23Pjava --version exit[Ksystemctl status nginx[1@disable[C[C[C[C[C[C[1Pstatus[C[C[C[C[C[C[2Pop[C[C[C[C[C[C[2@atus[C[C[C[C[C[C[Ksystemctl cat nginx
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;34m# ]8;;file://devops/etc/systemd/system/nginx.service\/etc/systemd/system/nginx.service]8;;\[0m[m]8;;\
+[0;1;36m[Unit][0m[m
+[0;1;32mDescription=[0mMy Custom Nginx Service[m
+[0;1;32mDocumentation=[0mman:nginx(8)[m
+[0;1;32mAfter=[0mnetwork.target[m
+[m
+[0;1;36m[Service][0m[m
+[0;1;32mType=[0mforking[m
+[0;1;32mPIDFile=[0m/run/nginx.pid[m
+[0;1;32mExecStartPre=[0m/usr/sbin/nginx -t -q -g 'daemon on; master_process on;'[m
+[0;1;32mExecStart=[0m/usr/sbin/nginx -g 'daemon on; master_process on;'[m
+[0;1;32mExecReload=[0m/usr/sbin/nginx -g 'daemon on; master_process on;' -s reload[m
+[0;1;32mExecStop=[0m-/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 --pidfile /run/nginx.pid[m
+[0;1;32mTimeoutStopSec=[0m5[m
+[0;1;32mKillMode=[0mmixed[m
+[m
+[0;1;36m[Install][0m[m
+[0;1;32mWantedBy=[0mmulti-user.target[m
+[K[?1l>]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ systemctl cat nginx[3@status[C[C[C[C[C[C[2Pop[C[C[C[C[C[C[1P[C[1P[1@a[1@r[1@t
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ systemctl start nginx[1P[1P[1P[1P[1P[C[C[C[C[C[C[K[K[K[K[K[K
+add-requires            help                    list-units              set-environment
+add-wants               hibernate               log-level               set-property
+bind                    hybrid-sleep            log-target              show
+cancel                  import-environment      mask                    show-environment
+cat                     is-active               mount-image             sleep
+condreload              is-enabled              poweroff                soft-reboot
+condrestart             is-failed               preset                  start
+condstop                isolate                 preset-all              status
+daemon-reexec           is-system-running       reboot                  stop
+daemon-reload           kexec                   reenable                suspend
+default                 kill                    reload                  suspend-then-hibernate
+disable                 link                    reload-or-restart       switch-root
+edit                    list-automounts         rescue                  thaw
+emergency               list-dependencies       reset-failed            try-reload-or-restart
+enable                  list-jobs               restart                 try-restart
+exit                    list-machines           revert                  unmask
+force-reload            list-paths              service-log-level       unset-environment
+freeze                  list-sockets            service-log-target      whoami
+get-default             list-timers             service-watchdogs       
+halt                    list-unit-files         set-default             
+]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ systemctl enable nginx
+[?2004l]133;C\]666;vte.shell.preexec!\Synchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
+update-rc.d: error: Permission denied
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ systemctl enable nginx[C[1@s[1@u[1@d[1@o[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: ***   
+Synchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
+Created symlink '/etc/systemd/system/multi-user.target.wants/nginx.service' → '/etc/systemd/system/nginx.service'.
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ sudo systemctl enable nginx[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pstart[C[C[C[C[C[C[1@enable[C[C[C[C[C[C[5@udo s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pstart[C[C[C[C[C[C[2Pca[C[C[C[C[C[C[C[3@status[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;32m●[0m nginx.service - My Custom Nginx Service[m
+     Loaded: loaded (]8;;file://devops/etc/systemd/system/nginx.service\/etc/systemd/system/nginx.service]8;;\; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m]8;;\
+     Active: [0;1;32mactive (running)[0m since Mon 2026-10-19 23:52:27 +03; 1min 0s ago[m
+ Invocation: 50efdececa384d79805b650fad1f88bf[m
+       Docs: ]8;;man:nginx(8)\man:nginx(8)]8;;\[m]8;;\
+   Main PID: 13027 (nginx)[m
+      Tasks: 2[0;38:5:245m (limit: 1581)[0m[m
+     Memory: 2.3M (peak: 2.4M)[m
+        CPU: 30ms[m
+     CGroup: /system.slice/nginx.service[m
+             ├─[0;38:5:245m13027 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[0m[m
+             └─[0;38:5:245m13028 "nginx: worker process"[0m[m
+[m
+Oct 19 23:52:27 devops systemd[1]: Starting nginx.service - My Custom Nginx Service...[m
+Oct 19 23:52:27 devops systemd[1]: Started nginx.service - My Custom Nginx Service.[m
+[K[?1l>]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ systemctl status nginx[K[K[K[K[K[K[K[K[K[K[K[K[K is-enabled nginx
+[?2004l]133;C\]666;vte.shell.preexec!\enabled
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ echo > ''[K[K[K[K[K[K[K[K[Kexit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-10-19 23:54:41+03:00 [COMMAND_EXIT_CODE="0"]
