@@ -1,0 +1,51 @@
+Script started on 2026-10-19 23:21:36+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="98" LINES="31"]
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ java --version 
+[?2004l]133;C\]666;vte.shell.preexec!\openjdk 17.0.20.1 2026-08-18
+OpenJDK Runtime Environment Temurin-17.0.20.1+1 (build 17.0.20.1+1)
+OpenJDK 64-Bit Server VM Temurin-17.0.20.1+1 (build 17.0.20.1+1, mixed mode, sharing)
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ update-alternatives --config java
+[?2004l]133;C\]666;vte.shell.preexec!\There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-25-openjdk-amd64/bin/java   2511      auto mode
+* 1            /opt/java/jdk-17.0.20.1+1/bin/java            1717      manual mode
+  2            /usr/lib/jvm/java-25-openjdk-amd64/bin/java   2511      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-25-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+update-alternatives: error: error creating symbolic link '/etc/alternatives/java.dpkg-tmp': Permission denied
+]666;vte.shell.postexec=2\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ sudo update-alternatives --config java
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: ***   
+There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-25-openjdk-amd64/bin/java   2511      auto mode
+* 1            /opt/java/jdk-17.0.20.1+1/bin/java            1717      manual mode
+  2            /usr/lib/jvm/java-25-openjdk-amd64/bin/java   2511      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-25-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ sudo update-alternatives --config java[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pjava --version exit[Kjava --version 
+[?2004l]133;C\]666;vte.shell.preexec!\openjdk 25.0.4.1 2026-08-18
+OpenJDK Runtime Environment (build 25.0.4.1+1-1-26.04.4-Ubuntu)
+OpenJDK 64-Bit Server VM (build 25.0.4.1+1-1-26.04.4-Ubuntu, mixed mode, sharing)
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ java --version sudo update-alternatives --config java
+[?2004l]133;C\]666;vte.shell.preexec!\There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-25-openjdk-amd64/bin/java   2511      auto mode
+  1            /opt/java/jdk-17.0.20.1+1/bin/java            1717      manual mode
+* 2            /usr/lib/jvm/java-25-openjdk-amd64/bin/java   2511      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 0
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ sudo update-alternatives --config java[23Pjava --version 
+[?2004l]133;C\]666;vte.shell.preexec!\openjdk 25.0.4.1 2026-08-18
+OpenJDK Runtime Environment (build 25.0.4.1+1-1-26.04.4-Ubuntu)
+OpenJDK 64-Bit Server VM (build 25.0.4.1+1-1-26.04.4-Ubuntu, mixed mode, sharing)
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson4\]0;annpak@devops:~/devops/codeby-devops/lesson4\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson4[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson4[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-10-19 23:23:10+03:00 [COMMAND_EXIT_CODE="0"]
