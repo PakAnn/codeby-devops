@@ -1,0 +1,1159 @@
+Script started on 2026-10-27 23:29:49+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="109" LINES="30"]
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo sp[Knap lxd
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: ***   
+error: unknown command "lxd", see 'snap help'.
+]666;vte.shell.postexec=64\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo snap lxd[K[K[K
+abort            disable          install          quota            run              unalias
+ack              disconnect       interface        quotas           save             unset
+alias            download         known            reboot           saved            validate
+aliases          enable           list             recovery         services         version
+changes          export-key       login            refresh          set              wait
+check-snapshot   export-snapshot  logout           remodel          set-quota        warnings
+component        find             logs             remove           sign             watch
+components       forget           model            remove-quota     start            whoami
+connect          get              okay             report-issue     stop             
+connections      help             pack             restart          switch           
+create-cohort    import-snapshot  prefer           restore          tasks            
+debug            info             prepare-image    revert           try              
+]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo snap install lxd
+[?2004l]133;C\]666;vte.shell.preexec!\Ensure prerequisites for "lxd" are available                                                                /Process delayed security backend side effects for affected snaps                                            -Process delayed security backend side effects for affected snaps                                            \Download snap "lxd" (40958) from channel "5.21/stable"                                                      |Download snap "lxd" (40958) from channel "5.21/stable"                                                      /Fetch and check assertions for snap "lxd" (40958)                                                           -Fetch and check assertions for snap "lxd" (40958)                                                           \Fetch and check assertions for snap "lxd" (40958)                                                           |Mount snap "lxd" (40958)                                                                                    /Mount snap "lxd" (40958)                                                                                    -Mount snap "lxd" (40958)                                                                                    \Mount snap "lxd" (40958)                                                                                    |Mount snap "lxd" (40958)                                                                                    /Mount snap "lxd" (40958)                                                                                    -Copy snap "lxd" data                                                                                        \Make snap "lxd" (40958) available to the system                                                             |Process delayed security backend side effects for affected snaps                                            /Setup snap "lxd" (40958) security profiles                                                                  -Setup snap "lxd" (40958) security profiles                                                                  \Setup snap "lxd" (40958) security profiles                                                                  |Setup snap "lxd" (40958) security profiles                                                                  /Setup snap "lxd" (40958) security profiles                                                                  -Setup snap "lxd" (40958) security profiles                                                                  \Setup snap "lxd" (40958) security profiles                                                                  |Setup snap "lxd" (40958) security profiles                                                                  /Setup snap "lxd" (40958) security profiles                                                                  -Setup snap "lxd" (40958) security profiles                                                                  \Setup snap "lxd" (40958) security profiles                                                                  |Setup snap "lxd" (40958) security profiles                                                                  /Setup snap "lxd" (40958) security profiles                                                                  -Setup snap "lxd" (40958) security profiles                                                                  \Setup snap "lxd" (40958) security profiles                                                                  |Setup snap "lxd" (40958) security profiles                                                                  /Setup snap "lxd" (40958) security profiles                                                                  -Setup snap "lxd" (40958) security profiles                                                                  \Setup snap "lxd" (40958) security profiles                                                                  |Setup snap "lxd" (40958) security profiles                                                                  /Setup snap "lxd" (40958) security profiles                                                                  -Setup snap "lxd" (40958) security profiles                                                                  \Setup snap "lxd" (40958) security profiles                                                                  |Setup snap "lxd" (40958) security profiles                                                                  /Process delayed security backend side effects for affected snaps                                            -Run install hook of "lxd" snap if present                                                                   \Run install hook of "lxd" snap if present                                                                   |Start snap "lxd" (40958) services                                                                           /Start snap "lxd" (40958) services                                                                           -Start snap "lxd" (40958) services                                                                           \Start snap "lxd" (40958) services                                                                           |Start snap "lxd" (40958) services                                                                           /Start snap "lxd" (40958) services                                                                           -Start snap "lxd" (40958) services                                                                           \Start snap "lxd" (40958) services                                                                           |Start snap "lxd" (40958) services                                                                           /Run configure hook of "lxd" snap if present                                                                 -Run configure hook of "lxd" snap if present                                                                 \Run configure hook of "lxd" snap if present                                                                 |Process delayed security backend side effects for affected snaps                                            /Process delayed security backend side effects for affected snaps                                            -Process delayed security backend side effects for affected snaps                                            \Process delayed security backend side effects for affected snaps                                            |Process delayed security backend side effects for affected snaps                                            /[0m[?25h[Klxd (5.21/stable) 5.21.8-3a06799 from Canonical[32m✓[0m installed
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxd init
+[?2004l]133;C\]666;vte.shell.preexec!\Would you like to use LXD clustering? (yes/no) [default=no]: 
+Do you want to configure a new storage pool? (yes/no) [default=yes]: 
+Name of the new storage pool [default=default]: 
+Name of the storage backend to use (btrfs, ceph, dir, powerflex, pure, zfs, lvm, alletra) [default=zfs]: 
+Create a new ZFS pool? (yes/no) [default=yes]: 
+Would you like to use an existing empty block device (e.g. a disk or partition)? (yes/no) [default=no]: 
+Size in GiB of the new loop device (1GiB minimum) [default=7GiB]: 1GiB
+Would you like to connect to a MAAS server? (yes/no) [default=no]: 
+Would you like to create a new local network bridge? (yes/no) [default=yes]: 
+What should the new bridge be called? [default=lxdbr0]: 
+What IPv4 address should be used? (CIDR subnet notation, “auto” or “none”) [default=auto]: 
+What IPv6 address should be used? (CIDR subnet notation, “auto” or “none”) [default=auto]: 
+Would you like the LXD server to be available over the network? (yes/no) [default=no]: 
+Would you like stale cached images to be updated automatically? (yes/no) [default=yes]: 
+Would you like a YAML "lxd init" preseed to be printed? (yes/no) [default=no]: 
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxd status
+[?2004l]133;C\]666;vte.shell.preexec!\Error: unknown command "status" for "lxd"
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxd status[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kst[Kystencr[Ktl[K[K[K[Kmctl st[K[K
+add-requires            help                    list-units              set-environment
+add-wants               hibernate               log-level               set-property
+bind                    hybrid-sleep            log-target              show
+cancel                  import-environment      mask                    show-environment
+cat                     is-active               mount-image             sleep
+condreload              is-enabled              poweroff                soft-reboot
+condrestart             is-failed               preset                  start
+condstop                isolate                 preset-all              status
+daemon-reexec           is-system-running       reboot                  stop
+daemon-reload           kexec                   reenable                suspend
+default                 kill                    reload                  suspend-then-hibernate
+disable                 link                    reload-or-restart       switch-root
+edit                    list-automounts         rescue                  thaw
+emergency               list-dependencies       reset-failed            try-reload-or-restart
+enable                  list-jobs               restart                 try-restart
+exit                    list-machines           revert                  unmask
+force-reload            list-paths              service-log-level       unset-environment
+freeze                  list-sockets            service-log-target      whoami
+get-default             list-timers             service-watchdogs       
+halt                    list-unit-files         set-default             
+]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ systemctl udo lxd init[3Pystemctl status 
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;31m●[0m devops[m
+    State: [0;1;31mdegraded[0m[m
+    Units: 659 loaded (incl. loaded aliases)[m
+     Jobs: 0 queued[m
+   Failed: 1 units[m
+    Since: Tue 2026-10-27 20:40:53 +03; 2h 51min ago[m
+  systemd: 259.5-0ubuntu3.4[m
+  Tainted: [0;1;38:5:185munmerged-bin[0m[m
+   CGroup: /[m
+           ├─[0;38:5:245m19367 /bin/sh /snap/lxd/40958/commands/daemon.start[0m[m
+           ├─[0;38:5:245m19681 lxcfs --enable-pidfd /var/snap/lxd/common/var/lib/lxcfs -p /var/snap/lxd/common/lxcfs.pid[0m[m
+           ├─[0;38:5:245m19689 lxd --logfile /var/snap/lxd/common/lxd/logs/lxd.log --group lxd[0m[m
+           ├─[0;38:5:245m19885 dnsmasq --keep-in-foreground --strict-order --bind-interfaces --except-interface=lo --pid[m[7m>[27m
+           ├─init.scope[m
+           │ └─[0;38:5:245m1 /sbin/init splash[0m[m
+           ├─system.slice[m
+           │ ├─ModemManager.service[m
+           │ │ └─[0;38:5:245m851 /usr/sbin/ModemManager[0m[m
+           │ ├─NetworkManager.service[m
+           │ │ └─[0;38:5:245m766 /usr/sbin/NetworkManager --no-daemon[0m[m
+           │ ├─accounts-daemon.service[m
+           │ │ └─[0;38:5:245m670 /usr/libexec/accounts-daemon[0m[m
+           │ ├─atop.service[m
+           │ │ └─[0;38:5:245m757 /usr/bin/atop -w /var/log/atop/atop_20261027 600[0m[m
+           │ ├─atopacct.service[m
+           │ │ └─[0;38:5:245m720 /usr/sbin/atopacctd[0m[m
+           │ ├─avahi-daemon.service[m
+           │ │ ├─[0;38:5:245m654 "avahi-daemon: running [devops.local]"[0m[m
+           │ │ └─[0;38:5:245m686 "avahi-daemon: chroot helper"[0m[m
+[7mlines 1-29[27m[K[K[?1l>
+]666;vte.shell.postexec=130\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ systemctl status lxd
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;31mUnit lxd.service could not be found.[0m[m
+[K[?1l>]666;vte.shell.postexec=4\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ systemctl status lxd | grep lxd
+[?2004l]133;C\]666;vte.shell.preexec!\Unit lxd.service could not be found.
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ systemctl status lxd | grep lxd[K[K[K[K[K[K[K[K[K[K[K[K[K[K--help
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=systemctl [OPTIONS...] COMMAND ...[m
+[m
+[0;1;39mQuery or send control commands to the system manager.[0m[m
+[m
+[0;4mUnit Commands:[0m[m
+  list-units [PATTERN...]             List units currently in memory[m
+  list-automounts [PATTERN...]        List automount units currently in memory,[m
+                                      ordered by path[m
+  list-paths [PATTERN...]             List path units currently in memory,[m
+                                      ordered by path[m
+  list-sockets [PATTERN...]           List socket units currently in memory,[m
+                                      ordered by address[m
+  list-timers [PATTERN...]            List timer units currently in memory,[m
+                                      ordered by next elapse[m
+  is-active PATTERN...                Check whether units are active[m
+  is-failed [PATTERN...]              Check whether units are failed or[m
+                                      system is in degraded state[m
+  status [PATTERN...|PID...]          Show runtime status of one or more units[m
+  show [PATTERN...|JOB...]            Show properties of one or more[m
+                                      units/jobs or the manager[m
+  cat PATTERN...                      Show files and drop-ins of specified units[m
+  help PATTERN...|PID...              Show manual for one or more units[m
+  list-dependencies [UNIT...]         Recursively show units which are required[m
+                                      or wanted by the units or by which those[m
+                                      units are required or wanted[m
+  start UNIT...                       Start (activate) one or more units[m
+  stop UNIT...                        Stop (deactivate) one or more units[m
+  reload UNIT...                      Reload one or more units[m
+  restart UNIT...                     Start or restart one or more units[m
+[7mlines 1-29[27m[K[K [KESCESC[KOO[KBB[K  try-restart UNIT...                 Restart one or more units if active[m
+[7mlines 2-30[27m[K[K [KESCESC[KOO[KBB[K  reload-or-restart UNIT...           Reload one or more units if possible,[m
+[7mlines 3-31[27m[K[K [KESCESC[KOO[KBB[K                                      otherwise start or restart[m
+[7mlines 4-32[27m[K[K [KESCESC[KOO[KBB[K  try-reload-or-restart UNIT...       If active, reload one or more units,[m
+[7mlines 5-33[27m[K[K [KESCESC[KOO[KBB[K                                      if supported, otherwise restart[m
+[7mlines 6-34[27m[K[K [KESCESC[KOO[KBB[K  isolate UNIT                        Start one unit and stop all others[m
+[7mlines 7-35[27m[K[K [KESCESC[KOO[KBB[K  kill UNIT...                        Send signal to processes of a unit[m
+[7mlines 8-36[27m[K[K [KESCESC[KOO[KBB[K  clean UNIT...                       Clean runtime, cache, state, logs or[m
+[7mlines 9-37[27m[K[K [KESCESC[KOO[KBB[K                                      configuration of unit[m
+[7mlines 10-38[27m[K[K [KESCESC[KOO[KBB[K  freeze PATTERN...                   Freeze execution of unit processes[m
+[7mlines 11-39[27m[K[K [KESCESC[KOO[KBB[K  thaw PATTERN...                     Resume execution of a frozen unit[m
+[7mlines 12-40[27m[K[K [KESCESC[KOO[KBB[K  set-property UNIT PROPERTY=VALUE... Sets one or more properties of a unit[m
+[7mlines 13-41[27m[K[K [KESCESC[KOO[KBB[K  bind UNIT PATH [PATH]               Bind-mount a path from the host into a[m
+[7mlines 14-42[27m[K[K [KESCESC[KOO[KBB[K                                      unit's namespace[m
+[7mlines 15-43[27m[K[K [KESCESC[KOO[KBB[K  mount-image UNIT PATH [PATH [OPTS]] Mount an image from the host into a[m
+[7mlines 16-44[27m[K[K [KESCESC[KOO[KBB[K                                      unit's namespace[m
+[7mlines 17-45[27m[K[K [KESCESC[KOO[KBB[K  service-log-level SERVICE [LEVEL]   Get/set logging threshold for service[m
+[7mlines 18-46[27m[K[K [KESCESC[KOO[KBB[K  service-log-target SERVICE [TARGET] Get/set logging target for service[m
+[7mlines 19-47[27m[K[K [KESCESC[KOO[KBB[K  reset-failed [PATTERN...]           Reset failed state for all, one, or more[m
+[7mlines 20-48[27m[K[K [KESCESC[KOO[KBB[K                                      units[m
+[7mlines 21-49[27m[K[K [KESCESC[KOO[KBB[K  whoami [PID...]                     Return unit caller or specified PIDs are[m
+[7mlines 22-50[27m[K[K [KESCESC[KOO[KBB[K                                      part of[m
+[7mlines 23-51[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 24-52[27m[K[K [KESCESC[KOO[KBB[K[0;4mUnit File Commands:[0m[m
+[7mlines 25-53[27m[K[K [KESCESC[KOO[KBB[K  list-unit-files [PATTERN...]        List installed unit files[m
+[7mlines 26-54[27m[K[K [KESCESC[KOO[KBB[K  enable [UNIT...|PATH...]            Enable one or more unit files[m
+[7mlines 27-55[27m[K[K [KESCESC[KOO[KBB[K  disable UNIT...                     Disable one or more unit files[m
+[7mlines 28-56[27m[K[K [KESCESC[KOO[KBB[K  reenable UNIT...                    Reenable one or more unit files[m
+[7mlines 29-57[27m[K[K [KESCESC[KOO[KBB[K  preset UNIT...                      Enable/disable one or more unit files[m
+[7mlines 30-58[27m[K[K [KESCESC[KOO[KBB[K                                      based on preset configuration[m
+[7mlines 31-59[27m[K[K [KESCESC[KOO[KBB[K  preset-all                          Enable/disable all unit files based on[m
+[7mlines 32-60[27m[K[K [KESCESC[KOO[KBB[K                                      preset configuration[m
+[7mlines 33-61[27m[K[K [KESCESC[KOO[KBB[K  is-enabled UNIT...                  Check whether unit files are enabled[m
+[7mlines 34-62[27m[K[K [KESCESC[KOO[KBB[K  mask UNIT...                        Mask one or more units[m
+[7mlines 35-63[27m[K[K [KESCESC[KOO[KBB[K  unmask UNIT...                      Unmask one or more units[m
+[7mlines 36-64[27m[K[K [KESCESC[KOO[KBB[K  link PATH...                        Link one or more units files into[m
+[7mlines 37-65[27m[K[K [KESCESC[KOO[KBB[K                                      the search path[m
+[7mlines 38-66[27m[K[K [KESCESC[KOO[KBB[K  revert UNIT...                      Revert one or more unit files to vendor[m
+[7mlines 39-67[27m[K[K [KESCESC[KOO[KBB[K                                      version[m
+[7mlines 40-68[27m[K[K [KESCESC[KOO[KBB[K  add-wants TARGET UNIT...            Add 'Wants' dependency for the target[m
+[7mlines 41-69[27m[K[K [KESCESC[KOO[KBB[K                                      on specified one or more units[m
+[7mlines 42-70[27m[K[K [KESCESC[KOO[KBB[K  add-requires TARGET UNIT...         Add 'Requires' dependency for the target[m
+[7mlines 43-71[27m[K[K [KESCESC[KOO[KBB[K                                      on specified one or more units[m
+[7mlines 44-72[27m[K[K [KESCESC[KOO[KBB[K  edit UNIT...                        Edit one or more unit files[m
+[7mlines 45-73[27m[K[K [KESCESC[KOO[KBB[K  get-default                         Get the name of the default target[m
+[7mlines 46-74[27m[K[K [KESCESC[KOO[KBB[K  set-default TARGET                  Set the default target[m
+[7mlines 47-75[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 48-76[27m[K[K [KESCESC[KOO[KBB[K[0;4mMachine Commands:[0m[m
+[7mlines 49-77[27m[K[K [KESCESC[KOO[KBB[K  list-machines [PATTERN...]          List local containers and host[m
+[7mlines 50-78[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 51-79[27m[K[K [KESCESC[KOO[KBB[K[0;4mJob Commands:[0m[m
+[7mlines 52-80[27m[K[K [KESCESC[KOO[KBB[K  list-jobs [PATTERN...]              List jobs[m
+[7mlines 53-81[27m[K[K [KESCESC[KOO[KBB[K  cancel [JOB...]                     Cancel all, one, or more jobs[m
+[7mlines 54-82[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 55-83[27m[K[K [KESCESC[KOO[KBB[K[0;4mEnvironment Commands:[0m[m
+[7mlines 56-84[27m[K[K [KESCESC[KOO[KBB[K  show-environment                    Dump environment[m
+[7mlines 57-85[27m[K[K [KESCESC[KOO[KBB[K  set-environment VARIABLE=VALUE...   Set one or more environment variables[m
+[7mlines 58-86[27m[K[K [KESCESC[KOO[KBB[K  unset-environment VARIABLE...       Unset one or more environment variables[m
+[7mlines 59-87[27m[K[K [KESCESC[KOO[KBB[K  import-environment VARIABLE...      Import all or some environment variables[m
+[7mlines 60-88[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 61-89[27m[K[K [KESCESC[KOO[KBB[K[0;4mManager State Commands:[0m[m
+[7mlines 62-90[27m[K[K [KESCESC[KOO[KBB[K  daemon-reload                       Reload systemd manager configuration[m
+[7mlines 63-91[27m[K[K [KESCESC[KOO[KBB[K  daemon-reexec                       Reexecute systemd manager[m
+[7mlines 64-92[27m[K[K [KESCESC[KOO[KBB[K  log-level [LEVEL]                   Get/set logging threshold for manager[m
+[7mlines 65-93[27m[K[K [KESCESC[KOO[KBB[K  log-target [TARGET]                 Get/set logging target for manager[m
+[7mlines 66-94[27m[K[K [KESCESC[KOO[KBB[K  service-watchdogs [BOOL]            Get/set service watchdog state[m
+[7mlines 67-95[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 68-96[27m[K[K [KESCESC[KOO[KBB[K[0;4mSystem Commands:[0m[m
+[7mlines 69-97[27m[K[K [KESCESC[KOO[KBB[K  is-system-running                   Check whether system is fully running[m
+[7mlines 70-98[27m[K[K [KESCESC[KOO[KBB[K  default                             Enter system default mode[m
+[7mlines 71-99[27m[K[K [KESCESC[KOO[KBB[K  rescue                              Enter system rescue mode[m
+[7mlines 72-100[27m[K[K [KESCESC[KOO[KBB[K  emergency                           Enter system emergency mode[m
+[7mlines 73-101[27m[K[K [KESCESC[KOO[KBB[K  halt                                Shut down and halt the system[m
+[7mlines 74-102[27m[K[K [KESCESC[KOO[KBB[K  poweroff                            Shut down and power-off the system[m
+[7mlines 75-103[27m[K[K [KESCESC[KOO[KBB[K  reboot                              Shut down and reboot the system[m
+[7mlines 76-104[27m[K[K [KESCESC[KOO[KBB[K  kexec                               Shut down and reboot the system with kexec[m
+[7mlines 77-105[27m[K[K [KESCESC[KOO[KBB[K  soft-reboot                         Shut down and reboot userspace[m
+[7mlines 78-106[27m[K[K [KESCESC[KOO[KBB[K  exit [EXIT_CODE]                    Request user instance or container exit[m
+[7mlines 79-107[27m[K[K [KESCESC[KOO[KBB[K  switch-root [ROOT [INIT]]           Change to a different root file system[m
+[7mlines 80-108[27m[K[K [KESCESC[KOO[KBB[K  sleep                               Put the system to sleep (through one of[m
+[7mlines 81-109[27m[K[K [KESCESC[KOO[KBB[K                                      the operations below)[m
+[7mlines 82-110[27m[K[K [KESCESC[KOO[KBB[K  suspend                             Suspend the system[m
+[7mlines 83-111[27m[K[K [KESCESC[KOO[KBB[K  hibernate                           Hibernate the system[m
+[7mlines 84-112[27m[K[K [KESCESC[KOO[KBB[K  hybrid-sleep                        Hibernate and suspend the system[m
+[7mlines 85-113[27m[K[K [KESCESC[KOO[KBB[K  suspend-then-hibernate              Suspend the system, wake after a period of[m
+[7mlines 86-114[27m[K[K [KESCESC[KOO[KBB[K                                      time, and hibernate[m
+[7mlines 87-115[27m[K[K [KESCESC[KOO[KBB[K[0;4mOptions:[0m[m
+[7mlines 88-116[27m[K[K [KESCESC[KOO[KBB[K  -h --help              Show this help[m
+[7mlines 89-117[27m[K[K [KESCESC[KOO[KBB[K     --version           Show package version[m
+[7mlines 90-118[27m[K[K [KESCESC[KOO[KBB[K     --system            Connect to system manager[m
+[7mlines 91-119[27m[K[K [KESCESC[KOO[KBB[K     --user              Connect to user service manager[m
+[7mlines 92-120[27m[K[K [KESCESC[KOO[KBB[K  -C --capsule=NAME      Connect to service manager of specified capsule[m
+[7mlines 93-121[27m[K[K [KESCESC[KOO[KBB[K  -H --host=[USER@]HOST  Operate on remote host[m
+[7mlines 94-122[27m[K[K [KESCESC[KOO[KBB[K  -M --machine=CONTAINER Operate on a local container[m
+[7mlines 95-123[27m[K[K [KESCESC[KOO[KBB[K  -t --type=TYPE         List units of a particular type[m
+[7mlines 96-124[27m[K[K [KESCESC[KOO[KBB[K     --state=STATE       List units with particular LOAD or SUB or ACTIVE state[m
+[7mlines 97-125[27m[K[K [KESCESC[KOO[KBB[K     --failed            Shortcut for --state=failed[m
+[7mlines 98-126[27m[K[K [KESCESC[KOO[KBB[K  -p --property=NAME     Show only properties by this name[m
+[7mlines 99-127[27m[K[K [KESCESC[KOO[KBB[K  -P NAME                Equivalent to --value --property=NAME[m
+[7mlines 100-128[27m[K[K [KESCESC[KOO[KBB[K  -a --all               Show all properties/all units currently in memory,[m
+[7mlines 101-129[27m[K[K [KESCESC[KOO[KBB[K                         including dead/empty ones. To list all units installed[m
+[7mlines 102-130[27m[K[K [KESCESC[KOO[KBB[K                         on the system, use 'list-unit-files' instead.[m
+[7mlines 103-131[27m[K[K [KESCESC[KOO[KBB[K  -l --full              Don't ellipsize unit names on output[m
+[7mlines 104-132[27m[K[K [KESCESC[KOO[KBB[K  -r --recursive         Show unit list of host and local containers[m
+[7mlines 105-133[27m[K[K [KESCESC[KOO[KBB[K     --reverse           Show reverse dependencies with 'list-dependencies'[m
+[7mlines 106-134[27m[K[K [KESCESC[KOO[KBB[K     --before            Show units ordered before with 'list-dependencies'[m
+[7mlines 107-135[27m[K[K [KESCESC[KOO[KBB[K     --after             Show units ordered after with 'list-dependencies'[m
+[7mlines 108-136[27m[K[K [KESCESC[KOO[KBB[K     --with-dependencies Show unit dependencies with 'status', 'cat',[m
+[7mlines 109-137[27m[K[K [KESCESC[KOO[KBB[K                         'list-units', and 'list-unit-files'.[m
+[7mlines 110-138[27m[K[K [KESCESC[KOO[KBB[K     --job-mode=MODE     Specify how to deal with already queued jobs, when[m
+[7mlines 111-139[27m[K[K [KESCESC[KOO[KBB[K                         queueing a new job[m
+[7mlines 112-140[27m[K[K [KESCESC[KOO[KBB[K  -T --show-transaction  When enqueuing a unit job, show full transaction[m
+[7mlines 113-141[27m[K[K [KESCESC[KOO[KBB[K     --show-types        When showing sockets, explicitly show their type[m
+[7mlines 114-142[27m[K[K [KESCESC[KOO[KBB[K     --value             When showing properties, only print the value[m
+[7mlines 115-143[27m[K[K [KESCESC[KOO[KBB[K     --check-inhibitors=MODE[m
+[7mlines 116-144[27m[K[K [KESCESC[KOO[KBB[K                         Whether to check inhibitors before shutting down,[m
+[7mlines 117-145[27m[K[K [KESCESC[KOO[KBB[K                         sleeping, or hibernating[m
+[7mlines 118-146[27m[K[K [KESCESC[KOO[KBB[K  -i                     Shortcut for --check-inhibitors=no[m
+[7mlines 119-147[27m[K[K [KESCESC[KOO[KBB[K  -s --signal=SIGNAL     Which signal to send[m
+[7mlines 120-148[27m[K[K [KESCESC[KOO[KBB[K     --kill-whom=WHOM    Whom to send signal to[m
+[7mlines 121-149[27m[K[K [KESCESC[KOO[KBB[K     --kill-value=INT    Signal value to enqueue[m
+[7mlines 122-150[27m[K[K [KESCESC[KOO[KBB[K     --kill-subgroup=PATH[m
+[7mlines 123-151[27m[K[K [KESCESC[KOO[KBB[K                         Send signal to sub-control group only[m
+[7mlines 124-152[27m[K[K [KESCESC[KOO[KBB[K     --what=RESOURCES    Which types of resources to remove[m
+[7mlines 125-153[27m[K[K [KESCESC[KOO[KBB[K     --now               Start or stop unit after enabling or disabling it[m
+[7mlines 126-154[27m[K[K [KESCESC[KOO[KBB[K     --dry-run           Only print what would be done[m
+[7mlines 127-155[27m[K[K [KESCESC[KOO[KBB[K                         Currently supported by verbs: halt, poweroff, reboot,[m
+[7mlines 128-156[27m[K[K [KESCESC[KOO[KBB[K                             kexec, soft-reboot, suspend, hibernate, [m
+[7mlines 129-157[27m[K[K [KESCESC[KOO[KBB[K                             suspend-then-hibernate, hybrid-sleep, default,[m
+[7mlines 130-158[27m[K[K [KESCESC[KOO[KBB[K                             rescue, emergency, and exit.[m
+[7mlines 131-159[27m[K[K [KESCESC[KOO[KBB[K  -q --quiet             Suppress output[m
+[7mlines 132-160[27m[K[K [KESCESC[KOO[KBB[K  -v --verbose           Show unit logs while executing operation[m
+[7mlines 133-161[27m[K[K [KESCESC[KOO[KBB[K     --no-warn           Suppress several warnings shown by default[m
+[7mlines 134-162[27m[K[K [KESCESC[KOO[KBB[K     --wait              For (re)start, wait until service stopped again[m
+[7mlines 135-163[27m[K[K [KESCESC[KOO[KBB[K                         For is-system-running, wait until startup is completed[m
+[7mlines 136-164[27m[K[K [KESCESC[KOO[KBB[K                         For kill, wait until service stopped[m
+[7mlines 137-165[27m[K[K [KESCESC[KOO[KBB[K     --no-block          Do not wait until operation finished[m
+[7mlines 138-166[27m[K[K [KESCESC[KOO[KBB[K     --no-wall           Don't send wall message before halt/power-off/reboot[m
+[7mlines 139-167[27m[K[K [KESCESC[KOO[KBB[K     --message=MESSAGE   Specify human-readable reason for system shutdown[m
+[7mlines 140-168[27m[K[K [KESCESC[KOO[KBB[K     --no-reload         Don't reload daemon after en-/dis-abling unit files[m
+[7mlines 141-169[27m[K[K [KESCESC[KOO[KBB[K     --legend=BOOL       Enable/disable the legend (column headers and hints)[m
+[7mlines 142-170[27m[K[K [KESCESC[KOO[KBB[K     --no-pager          Do not pipe output into a pager[m
+[7mlines 143-171[27m[K[K [KESCESC[KOO[KBB[K     --no-ask-password   Do not ask for system passwords[m
+[7mlines 144-172[27m[K[K [KESCESC[KOO[KBB[K     --global            Edit/enable/disable/mask default user unit files[m
+[7mlines 145-173[27m[K[K [KESCESC[KOO[KBB[K                         globally[m
+[7mlines 146-174[27m[K[K [KESCESC[KOO[KBB[K     --runtime           Edit/enable/disable/mask unit files temporarily until[m
+[7mlines 147-175[27m[K[K [KESCESC[KOO[KBB[K                         next reboot[m
+[7mlines 148-176[27m[K[K [KESCESC[KOO[KBB[K  -f --force             When enabling unit files, override existing symlinks[m
+[7mlines 149-177[27m[K[K [KESCESC[KOO[KBB[K                         When shutting down, execute action immediately[m
+[7mlines 150-178[27m[K[K [KESCESC[KOO[KBB[K     --preset-mode=      Apply only enable, only disable, or all presets[m
+[7mlines 151-179[27m[K[K [KESCESC[KOO[KBB[K     --root=PATH         Edit/enable/disable/mask unit files in the specified[m
+[7mlines 152-180[27m[K[K [KESCESC[KOO[KBB[K                         root directory[m
+[7mlines 153-181[27m[K[K [KESCESC[KOO[KBB[K     --image=PATH        Edit/enable/disable/mask unit files in the specified[m
+[7mlines 154-182[27m[K[K [KESCESC[KOO[KBB[K                         disk image[m
+[7mlines 155-183[27m[K[K [KESCESC[KOO[KBB[K     --image-policy=POLICY[m
+[7mlines 156-184[27m[K[K [KESCESC[KOO[KBB[K                         Specify disk image dissection policy[m
+[7mlines 157-185[27m[K[K [KESCESC[KOO[KBB[K  -n --lines=INTEGER     Number of journal entries to show[m
+[7mlines 158-186[27m[K[K [KESCESC[KOO[KBB[K  -o --output=STRING     Change journal output mode (short, short-precise,[m
+[7mlines 159-187[27m[K[K [KESCESC[KOO[KBB[K                             short-iso, short-iso-precise, short-full,[m
+[7mlines 160-188[27m[K[K [KESCESC[KOO[KBB[K                             short-monotonic, short-unix, short-delta,[m
+[7mlines 161-189[27m[K[K [KESCESC[KOO[KBB[K                             verbose, export, json, json-pretty, json-sse, cat)[m
+[7mlines 162-190[27m[K[K [KESCESC[KOO[KBB[K     --firmware-setup    Tell the firmware to show the setup menu on next boot[m
+[7mlines 163-191[27m[K[K [KESCESC[KOO[KBB[K     --boot-loader-menu=TIME[m
+[7mlines 164-192[27m[K[K [KESCESC[KOO[KBB[K                         Boot into boot loader menu on next boot[m
+[7mlines 165-193[27m[K[K [KESCESC[KOO[KBB[K     --boot-loader-entry=NAME[m
+[7mlines 166-194[27m[K[K [KESCESC[KOO[KBB[K                         Boot into a specific boot loader entry on next boot[m
+[7mlines 167-195[27m[K[K [KESCESC[KOO[KBB[K     --reboot-argument=ARG[m
+[7mlines 168-196[27m[K[K [KESCESC[KOO[KBB[K                         Specify argument string to pass to reboot()[m
+[7mlines 169-197[27m[K[K [KESCESC[KOO[KBB[K     --plain             Print unit dependencies as a list instead of a tree[m
+[7mlines 170-198[27m[K[K [KESCESC[KOO[KBB[K     --timestamp=FORMAT  Change format of printed timestamps (pretty, unix,[m
+[7mlines 171-199[27m[K[K [KESCESC[KOO[KBB[K                             us, utc, us+utc)[m
+[7mlines 172-200[27m[K[K [KESCESC[KOO[KBB[K     --read-only         Create read-only bind mount[m
+[7mlines 173-201[27m[K[K [KESCESC[KOO[KBB[K     --mkdir             Create directory before mounting, if missing[m
+[7mlines 174-202[27m[K[K [KESCESC[KOO[KBB[K     --marked            Restart/reload previously marked units[m
+[7mlines 175-203[27m[K[K [KESCESC[KOO[KBB[K     --drop-in=NAME      Edit unit files using the specified drop-in file name[m
+[7mlines 176-204[27m[K[K [KESCESC[KOO[KBB[K     --when=TIME         Schedule halt/power-off/reboot/kexec action after[m
+[7mlines 177-205[27m[K[K [KESCESC[KOO[KBB[K                         a certain timestamp[m
+[7mlines 178-206[27m[K[K [KESCESC[KOO[KBB[K     --stdin             Read new contents of edited file from stdin[m
+[7mlines 179-207[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 180-208[27m[K[K [KESCESC[KOO[KBB[KSee the ]8;;man:systemctl(1)\systemctl(1) man page]8;;\ for details.[m]8;;\
+[7mlines 181-209[27m[K[K[?1l>
+]666;vte.shell.postexec=130\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ systemctl status --help[K[K[K[K[K[K[K[K[K[K[K[K[Kis-
+is-active          is-enabled         is-failed          is-system-running  
+]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ systemctl is-active 
+[?2004l]133;C\]666;vte.shell.preexec!\[0;1;31mToo few arguments.[0m
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ systemctl is-active --help
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=systemctl [OPTIONS...] COMMAND ...[m
+[m
+[0;1;39mQuery or send control commands to the system manager.[0m[m
+[m
+[0;4mUnit Commands:[0m[m
+  list-units [PATTERN...]             List units currently in memory[m
+  list-automounts [PATTERN...]        List automount units currently in memory,[m
+                                      ordered by path[m
+  list-paths [PATTERN...]             List path units currently in memory,[m
+                                      ordered by path[m
+  list-sockets [PATTERN...]           List socket units currently in memory,[m
+                                      ordered by address[m
+  list-timers [PATTERN...]            List timer units currently in memory,[m
+                                      ordered by next elapse[m
+  is-active PATTERN...                Check whether units are active[m
+  is-failed [PATTERN...]              Check whether units are failed or[m
+                                      system is in degraded state[m
+  status [PATTERN...|PID...]          Show runtime status of one or more units[m
+  show [PATTERN...|JOB...]            Show properties of one or more[m
+                                      units/jobs or the manager[m
+  cat PATTERN...                      Show files and drop-ins of specified units[m
+  help PATTERN...|PID...              Show manual for one or more units[m
+  list-dependencies [UNIT...]         Recursively show units which are required[m
+                                      or wanted by the units or by which those[m
+                                      units are required or wanted[m
+  start UNIT...                       Start (activate) one or more units[m
+  stop UNIT...                        Stop (deactivate) one or more units[m
+  reload UNIT...                      Reload one or more units[m
+  restart UNIT...                     Start or restart one or more units[m
+[7mlines 1-29[27m[K[K[?1l>
+]666;vte.shell.postexec=130\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ ps -aux | grep lxd
+[?2004l]133;C\]666;vte.shell.preexec!\annpak     18332  0.0  0.0   8408  2500 pts/0    S+   23:29   0:00 script [01;31m[Klxd[m[K_conteiner.txt
+root       19367  0.0  0.0   2808  1956 ?        Ss   23:30   0:00 /bin/sh /snap/[01;31m[Klxd[m[K/40958/commands/daemon.start
+root       19681  0.0  0.0 153136  2680 ?        Sl   23:30   0:00 lxcfs --enable-pidfd /var/snap/[01;31m[Klxd[m[K/common/var/lib/lxcfs -p /var/snap/[01;31m[Klxd[m[K/common/lxcfs.pid
+root       19689  0.1  2.4 6180608 86800 ?       Sl   23:30   0:00 [01;31m[Klxd[m[K --logfile /var/snap/[01;31m[Klxd[m[K/common/[01;31m[Klxd[m[K/logs/[01;31m[Klxd[m[K.log --group [01;31m[Klxd[m[K
+[01;31m[Klxd[m[K        19885  0.0  0.1  11932  5008 ?        Ss   23:31   0:00 dnsmasq --keep-in-foreground --strict-order --bind-interfaces --except-interface=lo --pid-file= --no-ping --interface=[01;31m[Klxd[m[Kbr0 --dhcp-rapid-commit --no-negcache --quiet-dhcp --quiet-dhcp6 --quiet-ra --dhcp-ignore-clid --listen-address=10.63.191.1 --dhcp-no-override --dhcp-authoritative --dhcp-leasefile=/var/snap/[01;31m[Klxd[m[K/common/[01;31m[Klxd[m[K/networks/[01;31m[Klxd[m[Kbr0/dnsmasq.leases --dhcp-hostsfile=/var/snap/[01;31m[Klxd[m[K/common/[01;31m[Klxd[m[K/networks/[01;31m[Klxd[m[Kbr0/dnsmasq.hosts --dhcp-range 10.63.191.2,10.63.191.254,1h --listen-address=fd42:4a52:1c19:10fc::1 --enable-ra --dhcp-range ::,constructor:[01;31m[Klxd[m[Kbr0,ra-stateless,ra-names -s [01;31m[Klxd[m[K --interface-name _gateway.[01;31m[Klxd[m[K,[01;31m[Klxd[m[Kbr0 -S /[01;31m[Klxd[m[K/ --conf-file=/var/snap/[01;31m[Klxd[m[K/common/[01;31m[Klxd[m[K/networks/[01;31m[Klxd[m[Kbr0/dnsmasq.raw -u [01;31m[Klxd[m[K -g [01;31m[Klxd[m[K
+annpak     20017  0.0  0.0   9324  2640 pts/1    S+   23:34   0:00 grep --color=auto [01;31m[Klxd[m[K
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo systemctl lxd
+[?2004l]133;C\]666;vte.shell.preexec!\[0;1;31mUnknown command verb 'lxd', did you mean 'cat'?[0m
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo systemctl lxd[C[1@ [1@s[1@t[1@a[1@t[1@u[1@s
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;31mUnit lxd.service could not be found.[0m[m
+[K[?1l>]666;vte.shell.postexec=4\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo systemctl status lxd[Kc
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;31mUnit lxc.service could not be found.[0m[m
+[K[?1l>]666;vte.shell.postexec=4\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc launch apacje[K[K[Kche-web
+[?2004l]133;C\]666;vte.shell.preexec!\Launching the instance
+Error: Failed to find image "apache-web" on remote "local"
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc launch apache-web[C[1@ [1@u[1@n[1P[1@b[1@u[1@n[1@t[1@u[1@:[1@2[1@2[1@.[1@0[1@4[C[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\Launching apache-web
+^[[A^[[B        ^CThis operation can't be cancelled (interrupt two more times to force)^C                                                                      This operation can't be cancelled (interrupt two more times to force)^C                                                                      Error: User signaled us three times, exiting. The remote operation will keep running
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc launch ubuntu:22.04  apache-web[1P
+[?2004l]133;C\]666;vte.shell.preexec!\Launching apache-web
+Retrieving image: metadata: 100% (664.52MB/s)                                              Retrieving image: rootfs: 1% (2.07MB/s)                                              Retrieving image: rootfs: 2% (2.47MB/s)                                              Retrieving image: rootfs: 3% (2.70MB/s)                                              Retrieving image: rootfs: 4% (2.80MB/s)                                              Retrieving image: rootfs: 5% (2.87MB/s)                                              Retrieving image: rootfs: 6% (2.93MB/s)                                              Retrieving image: rootfs: 7% (2.98MB/s)                                              Retrieving image: rootfs: 8% (3.00MB/s)                                              Retrieving image: rootfs: 9% (2.99MB/s)                                              Retrieving image: rootfs: 10% (3.01MB/s)                                              Retrieving image: rootfs: 10% (3.04MB/s)                                              Retrieving image: rootfs: 11% (3.07MB/s)                                              Retrieving image: rootfs: 12% (3.05MB/s)                                              Retrieving image: rootfs: 13% (3.07MB/s)                                              Retrieving image: rootfs: 14% (3.09MB/s)                                              Retrieving image: rootfs: 15% (3.10MB/s)                                              Retrieving image: rootfs: 16% (3.10MB/s)                                              Retrieving image: rootfs: 17% (3.12MB/s)                                              Retrieving image: rootfs: 18% (3.11MB/s)                                              Retrieving image: rootfs: 19% (3.09MB/s)                                              Retrieving image: rootfs: 19% (3.08MB/s)                                              Retrieving image: rootfs: 20% (3.09MB/s)                                              Retrieving image: rootfs: 21% (3.09MB/s)                                              Retrieving image: rootfs: 22% (3.09MB/s)                                              Retrieving image: rootfs: 23% (3.09MB/s)                                              Retrieving image: rootfs: 24% (3.10MB/s)                                              Retrieving image: rootfs: 25% (3.10MB/s)                                              Retrieving image: rootfs: 26% (3.11MB/s)                                              Retrieving image: rootfs: 27% (3.11MB/s)                                              Retrieving image: rootfs: 28% (3.11MB/s)                                              Retrieving image: rootfs: 29% (3.11MB/s)                                              Retrieving image: rootfs: 30% (3.09MB/s)                                              Retrieving image: rootfs: 31% (3.09MB/s)                                              Retrieving image: rootfs: 32% (3.10MB/s)                                              Retrieving image: rootfs: 33% (3.09MB/s)                                              Retrieving image: rootfs: 34% (3.10MB/s)                                              Retrieving image: rootfs: 35% (3.10MB/s)                                              Retrieving image: rootfs: 36% (3.10MB/s)                                              Retrieving image: rootfs: 37% (3.08MB/s)                                              Retrieving image: rootfs: 38% (3.08MB/s)                                              Retrieving image: rootfs: 38% (3.09MB/s)                                              Retrieving image: rootfs: 39% (3.09MB/s)                                              Retrieving image: rootfs: 40% (3.09MB/s)                                              Retrieving image: rootfs: 41% (3.09MB/s)                                              Retrieving image: rootfs: 42% (3.09MB/s)                                              Retrieving image: rootfs: 43% (3.09MB/s)                                              Retrieving image: rootfs: 44% (3.09MB/s)                                              Retrieving image: rootfs: 45% (3.09MB/s)                                              Retrieving image: rootfs: 46% (3.08MB/s)                                              Retrieving image: rootfs: 47% (3.08MB/s)                                              Retrieving image: rootfs: 48% (3.08MB/s)                                              Retrieving image: rootfs: 49% (3.08MB/s)                                              Retrieving image: rootfs: 50% (3.08MB/s)                                              Retrieving image: rootfs: 51% (3.09MB/s)                                              Retrieving image: rootfs: 52% (3.09MB/s)                                              Retrieving image: rootfs: 53% (3.08MB/s)                                              Retrieving image: rootfs: 54% (3.08MB/s)                                              Retrieving image: rootfs: 55% (3.08MB/s)                                              Retrieving image: rootfs: 56% (3.08MB/s)                                              Retrieving image: rootfs: 57% (3.09MB/s)                                              Retrieving image: rootfs: 58% (3.09MB/s)                                              Retrieving image: rootfs: 59% (3.09MB/s)                                              Retrieving image: rootfs: 60% (3.08MB/s)                                              Retrieving image: rootfs: 61% (3.09MB/s)                                              Retrieving image: rootfs: 62% (3.09MB/s)                                              Retrieving image: rootfs: 63% (3.09MB/s)                                              Retrieving image: rootfs: 64% (3.09MB/s)                                              Retrieving image: rootfs: 65% (3.09MB/s)                                              Retrieving image: rootfs: 65% (3.08MB/s)                                              Retrieving image: rootfs: 66% (3.08MB/s)                                              Retrieving image: rootfs: 67% (3.08MB/s)                                              Retrieving image: rootfs: 68% (3.09MB/s)                                              Retrieving image: rootfs: 69% (3.09MB/s)                                              Retrieving image: rootfs: 70% (3.09MB/s)                                              Retrieving image: rootfs: 71% (3.09MB/s)                                              Retrieving image: rootfs: 72% (3.09MB/s)                                              Retrieving image: rootfs: 73% (3.09MB/s)                                              Retrieving image: rootfs: 74% (3.09MB/s)                                              Retrieving image: rootfs: 75% (3.09MB/s)                                              Retrieving image: rootfs: 76% (3.09MB/s)                                              Retrieving image: rootfs: 77% (3.10MB/s)                                              Retrieving image: rootfs: 78% (3.10MB/s)                                              Retrieving image: rootfs: 79% (3.10MB/s)                                              Retrieving image: rootfs: 80% (3.10MB/s)                                              Retrieving image: rootfs: 81% (3.10MB/s)                                              Retrieving image: rootfs: 82% (3.10MB/s)                                              Retrieving image: rootfs: 83% (3.10MB/s)                                              Retrieving image: rootfs: 84% (3.10MB/s)                                              Retrieving image: rootfs: 85% (3.10MB/s)                                              Retrieving image: rootfs: 86% (3.10MB/s)                                              Retrieving image: rootfs: 87% (3.11MB/s)                                              Retrieving image: rootfs: 88% (3.11MB/s)                                              Retrieving image: rootfs: 89% (3.11MB/s)                                              Retrieving image: rootfs: 90% (3.11MB/s)                                              Retrieving image: rootfs: 91% (3.10MB/s)                                              Retrieving image: rootfs: 92% (3.10MB/s)                                              Retrieving image: rootfs: 93% (3.10MB/s)                                              Retrieving image: rootfs: 94% (3.10MB/s)                                              Retrieving image: rootfs: 95% (3.10MB/s)                                              Retrieving image: rootfs: 96% (3.10MB/s)                                              Retrieving image: rootfs: 97% (3.10MB/s)                                              Retrieving image: rootfs: 98% (3.11MB/s)                                              Retrieving image: rootfs: 99% (3.11MB/s)                                              Retrieving image: rootfs: 100% (3.11MB/s) 
+
+
+
+^C^C^C                                              Retrieving image: rootfs: 100% (3.11MB/s)                                              Retrieving image: rootfs: 100% (3.11MB/s)                                              Error: Remote operation canceled by user
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc launch ubuntu:22.04 apache-web
+[?2004l]133;C\]666;vte.shell.preexec!\Launching apache-web
+^CThis operation can't be cancelled (interrupt two more times to force)^C                                                                      This operation can't be cancelled (interrupt two more times to force)^C                                                                      Error: User signaled us three times, exiting. The remote operation will keep running
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc launch ubuntu:22.04 apache-web
+[?2004l]133;C\]666;vte.shell.preexec!\Launching apache-web
+^CThis operation can't be cancelled (interrupt two more times to force)^C                                                                      This operation can't be cancelled (interrupt two more times to force)^C                                                                      Error: User signaled us three times, exiting. The remote operation will keep running
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ ^C[?2004l[?2004h[?2004l
+]666;vte.shell.postexec=130\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc list
+[?2004l]133;C\]666;vte.shell.preexec!\+------+-------+------+------+------+-----------+
+| NAME | STATE | IPV4 | IPV6 | TYPE | SNAPSHOTS |
++------+-------+------+------+------+-----------+
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc listaunch ubuntu:22.04 apache-web
+[?2004l]133;C\]666;vte.shell.preexec!\Launching apache-web
+Error: Failed instance creation: Failed creating instance record: Instance is busy running a "create" operation
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc launch ubuntu:22.04 apache-webist[K
+[?2004l]133;C\]666;vte.shell.preexec!\+------------+---------+------+------+-----------+-----------+
+|    NAME    |  STATE  | IPV4 | IPV6 |   TYPE    | SNAPSHOTS |
++------------+---------+------+------+-----------+-----------+
+| apache-web | STOPPED |      |      | CONTAINER | 0         |
++------------+---------+------+------+-----------+-----------+
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc listaunch ubuntu:22.04 apache-webist[K[K[K[K[Kstart apache-web
+[?2004l]133;C\]666;vte.shell.preexec!\Error: The instance is already running
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc start apache-weblist[K
+[?2004l]133;C\]666;vte.shell.preexec!\+------------+---------+----------------------+-----------------------------------------------+-----------+-----------+
+|    NAME    |  STATE  |         IPV4         |                     IPV6                      |   TYPE    | SNAPSHOTS |
++------------+---------+----------------------+-----------------------------------------------+-----------+-----------+
+| apache-web | RUNNING | 10.63.191.180 (eth0) | fd42:4a52:1c19:10fc:216:3eff:fe16:e296 (eth0) | CONTAINER | 0         |
++------------+---------+----------------------+-----------------------------------------------+-----------+-----------+
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo exec[K[K[K[Klxc exec apache-web bash
+[?2004l]133;C\]666;vte.shell.preexec!\[?2004h]0;root@apache-web: ~root@apache-web:~# apt update && apt insto[Kall apache2 -t[Ky
+[?2004l[33m0% [Working][0m            Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+[33m0% [Connecting to archive.ubuntu.com (91.189.91.81)] [1 InRelease 0 B/129 kB 0%][0m[33m                                                                                0% [Waiting for headers][0m                        Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Waiting for headers][0m                        Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+[33m0% [3 InRelease 0 B/128 kB 0%][0m[33m0% [3 InRelease 42.0 kB/128 kB 33%][0m                                   Get:4 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3643 kB]
+[33m0% [3 InRelease 47.9 kB/128 kB 37%] [4 Packages 96.1 kB/3643 kB 3%][0m[33m                                                                   0% [3 InRelease 59.6 kB/128 kB 47%] [4 Packages 267 kB/3643 kB 7%][0m[33m                                                                  0% [Waiting for headers] [4 Packages 788 kB/3643 kB 22%][0m                                                        Get:5 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+[33m0% [5 InRelease 9912 B/127 kB 8%] [4 Packages 1461 kB/3643 kB 40%][0m[33m0% [5 InRelease 9912 B/127 kB 8%] [4 Packages 1718 kB/3643 kB 47%][0m[33m                                                                  0% [4 Packages 2549 kB/3643 kB 70%][0m[33m21% [Waiting for headers] [4 Packages 3131 kB/3643 kB 86%][0m                                                          Get:6 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+[33m21% [6 Packages 12.9 kB/14.1 MB 0%] [4 Packages 3131 kB/3643 kB 86%][0m[33m                                                                    23% [6 Packages 27.5 kB/14.1 MB 0%][0m[33m23% [4 Packages store 0 B] [6 Packages 144 kB/14.1 MB 1%] [Waiting for headers][0m                                                                               Get:7 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [510 kB]
+[33m23% [4 Packages store 0 B] [6 Packages 159 kB/14.1 MB 1%] [7 Translation-en 87.2 kB/510 kB 17%][0m[33m                                                                                               24% [4 Packages store 0 B] [6 Packages 182 kB/14.1 MB 1%][0m                                                         Get:8 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1055 kB]
+[33m25% [4 Packages store 0 B] [6 Packages 182 kB/14.1 MB 1%] [8 Packages 40.3 kB/1055 kB 4%][0m[33m                                                                                         27% [4 Packages store 0 B] [6 Packages 182 kB/14.1 MB 1%][0m                                                         Get:9 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [238 kB]
+[33m27% [4 Packages store 0 B] [6 Packages 182 kB/14.1 MB 1%] [9 Translation-en 87.8 kB/238 kB 37%][0m[33m                                                                                               28% [4 Packages store 0 B] [6 Packages 182 kB/14.1 MB 1%][0m                                                         Get:10 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [23.2 kB]
+[33m28% [4 Packages store 0 B] [6 Packages 182 kB/14.1 MB 1%] [10 Commands-amd64 0 B/23.2 kB 0%][0m[33m                                                                                            28% [4 Packages store 0 B] [6 Packages 182 kB/14.1 MB 1%][0m                                                         Get:11 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [79.6 kB]
+[33m28% [4 Packages store 0 B] [6 Packages 182 kB/14.1 MB 1%] [11 Packages 0 B/79.6 kB 0%][0m[33m                                                                                      28% [4 Packages store 0 B] [6 Packages 182 kB/14.1 MB 1%][0m                                                         Get:12 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [13.7 kB]
+                                                         Get:13 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [544 B]
+[33m28% [4 Packages store 0 B] [6 Packages 182 kB/14.1 MB 1%][0m[33m29% [4 Packages store 0 B] [6 Packages 455 kB/14.1 MB 3%][0m[33m29% [4 Packages store 0 B] [6 Packages 787 kB/14.1 MB 6%][0m[33m                                                         30% [6 Packages 935 kB/14.1 MB 7%][0m[33m30% [7 Translation-en store 0 B] [6 Packages 935 kB/14.1 MB 7%][0m[33m                                                               31% [6 Packages 1114 kB/14.1 MB 8%][0m[33m31% [8 Packages store 0 B] [6 Packages 1114 kB/14.1 MB 8%][0m[33m                                                          31% [6 Packages 1306 kB/14.1 MB 9%][0m[33m31% [9 Translation-en store 0 B] [6 Packages 1306 kB/14.1 MB 9%][0m[33m                                                                32% [6 Packages 1368 kB/14.1 MB 10%][0m[33m32% [10 Commands-amd64 store 0 B] [6 Packages 1371 kB/14.1 MB 10%][0m[33m                                                                  32% [6 Packages 1371 kB/14.1 MB 10%][0m[33m32% [11 Packages store 0 B] [6 Packages 1371 kB/14.1 MB 10%][0m[33m                                                            32% [6 Packages 1371 kB/14.1 MB 10%][0m[33m32% [12 Translation-en store 0 B] [6 Packages 1371 kB/14.1 MB 10%][0m[33m                                                                  32% [6 Packages 1371 kB/14.1 MB 10%][0m[33m33% [13 Commands-amd64 store 0 B] [6 Packages 1452 kB/14.1 MB 10%][0m[33m                                                                  33% [6 Packages 1452 kB/14.1 MB 10%][0m[33m34% [6 Packages 1861 kB/14.1 MB 13%][0m[33m35% [6 Packages 2255 kB/14.1 MB 16%][0m[33m36% [6 Packages 2702 kB/14.1 MB 19%]                                                           1373 kB/s 17s[0m[33m37% [6 Packages 3029 kB/14.1 MB 21%]                                                           1373 kB/s 17s[0m[33m38% [6 Packages 3677 kB/14.1 MB 26%]                                                           1373 kB/s 16s[0m[33m40% [6 Packages 4337 kB/14.1 MB 31%]                                                           1373 kB/s 16s[0m[33m41% [6 Packages 4936 kB/14.1 MB 35%]                                                           1373 kB/s 15s[0m[33m43% [6 Packages 5602 kB/14.1 MB 40%]                                                           1373 kB/s 15s[0m[33m45% [6 Packages 6337 kB/14.1 MB 45%]                                                           1373 kB/s 14s[0m[33m47% [6 Packages 7123 kB/14.1 MB 51%]                                                           1373 kB/s 14s[0m[33m49% [6 Packages 7891 kB/14.1 MB 56%]                                                           1373 kB/s 13s[0m[33m50% [6 Packages 8507 kB/14.1 MB 60%]                                                           1373 kB/s 13s[0m[33m53% [6 Packages 9555 kB/14.1 MB 68%]                                                           1373 kB/s 12s[0m[33m56% [6 Packages 10.8 MB/14.1 MB 76%]                                                           1373 kB/s 11s[0m[33m58% [6 Packages 11.7 MB/14.1 MB 83%]                                                           1496 kB/s 10s[0m[33m60% [6 Packages 12.7 MB/14.1 MB 90%]                                                            1496 kB/s 9s[0m[33m63% [6 Packages 13.9 MB/14.1 MB 99%]                                                            1496 kB/s 8s[0m[33m64% [Waiting for headers]                                                                       1496 kB/s 8s[0m[33m64% [6 Packages store 0 B] [Waiting for headers]                                                1496 kB/s 8s[0m                                                                                                            Get:14 http://archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
+[33m64% [6 Packages store 0 B] [14 Translation-en 137 kB/5652 kB 2%]                                1496 kB/s 8s[0m[33m67% [6 Packages store 0 B] [14 Translation-en 1291 kB/5652 kB 23%]                              1496 kB/s 7s[0m[33m70% [6 Packages store 0 B] [14 Translation-en 2553 kB/5652 kB 45%]                              1496 kB/s 6s[0m[33m74% [6 Packages store 0 B] [14 Translation-en 4056 kB/5652 kB 72%]                              1496 kB/s 5s[0m[33m74% [14 Translation-en 4115 kB/5652 kB 73%]                                                     1496 kB/s 5s[0m[33m77% [14 Translation-en 5292 kB/5652 kB 94%]                                                     1496 kB/s 4s[0m[33m78% [Working]                                                                                   1496 kB/s 4s[0m                                                                                                            Get:15 http://archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
+[33m78% [15 Commands-amd64 32.1 kB/286 kB 11%]                                                      1496 kB/s 4s[0m[33m78% [14 Translation-en store 0 B] [15 Commands-amd64 32.1 kB/286 kB 11%]                        1496 kB/s 4s[0m[33m79% [14 Translation-en store 0 B] [Waiting for headers]                                         1496 kB/s 4s[0m                                                                                                            Get:16 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
+[33m79% [14 Translation-en store 0 B] [16 Packages 31.3 kB/217 kB 14%]                              1496 kB/s 4s[0m                                                                                                            Get:17 http://archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
+[33m79% [14 Translation-en store 0 B] [17 Translation-en 76.3 kB/112 kB 68%]                        1496 kB/s 4s[0m[33m79% [14 Translation-en store 0 B]                                                               1496 kB/s 4s[0m                                                                                                            Get:18 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
+[33m79% [14 Translation-en store 0 B] [Waiting for headers]                                         1496 kB/s 4s[0m                                                                                                            Get:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [3909 kB]
+[33m80% [14 Translation-en store 0 B] [19 Packages 87.0 kB/3909 kB 2%]                              1496 kB/s 4s[0m[33m83% [14 Translation-en store 0 B] [19 Packages 1638 kB/3909 kB 42%]                             1496 kB/s 3s[0m[33m86% [19 Packages 2739 kB/3909 kB 70%]                                                           1496 kB/s 2s[0m[33m86% [15 Commands-amd64 store 0 B] [19 Packages 2745 kB/3909 kB 70%]                             1496 kB/s 2s[0m[33m87% [19 Packages 2745 kB/3909 kB 70%]                                                           1496 kB/s 2s[0m[33m87% [16 Packages store 0 B] [19 Packages 2745 kB/3909 kB 70%]                                   1496 kB/s 2s[0m[33m89% [19 Packages 3673 kB/3909 kB 94%]                                                           1496 kB/s 1s[0m[33m89% [17 Translation-en store 0 B] [19 Packages 3673 kB/3909 kB 94%]                             1496 kB/s 1s[0m[33m89% [19 Packages 3673 kB/3909 kB 94%]                                                           1496 kB/s 1s[0m[33m89% [18 Commands-amd64 store 0 B] [19 Packages 3673 kB/3909 kB 94%]                             1496 kB/s 1s[0m[33m90% [19 Packages 3673 kB/3909 kB 94%]                                                           1496 kB/s 1s[0m[33m90% [Working]                                                                                   1496 kB/s 1s[0m                                                                                                            Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [576 kB]
+[33m90% [19 Packages store 0 B] [20 Translation-en 72.7 kB/576 kB 13%]                              1496 kB/s 1s[0m[33m92% [19 Packages store 0 B]                                                                     1496 kB/s 1s[0m                                                                                                            Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1289 kB]
+[33m92% [19 Packages store 0 B] [21 Packages 0 B/1289 kB 0%]                                        1496 kB/s 1s[0m[33m95% [19 Packages store 0 B] [Waiting for headers]                                               1496 kB/s 0s[0m                                                                                                            Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [326 kB]
+[33m95% [19 Packages store 0 B] [22 Translation-en 153 kB/326 kB 47%]                               1496 kB/s 0s[0m[33m96% [19 Packages store 0 B] [Waiting for headers]                                               1496 kB/s 0s[0m                                                                                                            Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [30.8 kB]
+[33m96% [19 Packages store 0 B] [Waiting for headers]                                               1496 kB/s 0s[0m                                                                                                            Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [86.1 kB]
+[33m96% [19 Packages store 0 B] [Waiting for headers]                                               1496 kB/s 0s[0m                                                                                                            Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [16.6 kB]
+[33m96% [19 Packages store 0 B] [25 Translation-en 0 B/16.6 kB 0%]                                  1496 kB/s 0s[0m[33m96% [19 Packages store 0 B] [Waiting for headers]                                               1496 kB/s 0s[0m                                                                                                            Get:26 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [756 B]
+[33m96% [19 Packages store 0 B] [Waiting for headers]                                               1496 kB/s 0s[0m                                                                                                            Get:27 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [70.2 kB]
+[33m96% [19 Packages store 0 B] [Waiting for headers]                                               1496 kB/s 0s[0m                                                                                                            Get:28 http://archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11.4 kB]
+[33m96% [19 Packages store 0 B] [Waiting for headers]                                               1496 kB/s 0s[0m                                                                                                            Get:29 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [412 B]
+[33m96% [19 Packages store 0 B] [Waiting for headers]                                               2486 kB/s 0s[0m                                                                                                            Get:30 http://archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
+[33m96% [19 Packages store 0 B] [Waiting for headers]                                               2486 kB/s 0s[0m                                                                                                            Get:31 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [30.8 kB]
+[33m96% [19 Packages store 0 B]                                                                     2486 kB/s 0s[0m                                                                                                            Get:32 http://archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.9 kB]
+[33m96% [19 Packages store 0 B] [32 Translation-en 16.9 kB/16.9 kB 100%]                            2486 kB/s 0s[0m[33m96% [19 Packages store 0 B]                                                                     2486 kB/s 0s[0m                                                                                                            Get:33 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [676 B]
+[33m96% [19 Packages store 0 B] [33 Commands-amd64 0 B/676 B 0%]                                    2486 kB/s 0s[0m[33m96% [19 Packages store 0 B]                                                                     2486 kB/s 0s[0m                                                                                                            Get:34 http://archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
+[33m96% [19 Packages store 0 B]                                                                     2486 kB/s 0s[0m                                                                                                            Err:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages
+  Write error - write (28: No space left on device)
+[33m85% [Working]                                                                                   2486 kB/s 1s[0m[33m85% [20 Translation-en store 0 B] [Waiting for headers]                                         2486 kB/s 1s[0m                                                                                                            Ign:20 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en
+[33m83% [Waiting for headers]                                                                       2486 kB/s 2s[0m[33m83% [21 Packages store 0 B] [Waiting for headers]                                               2486 kB/s 2s[0m                                                                                                            Ign:21 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+[33m79% [Waiting for headers]                                                                       2486 kB/s 2s[0m[33m79% [22 Translation-en store 0 B] [Waiting for headers]                                         2486 kB/s 2s[0m                                                                                                            Ign:22 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en
+[33m78% [Waiting for headers]                                                                       2486 kB/s 3s[0m                                                                                                            Ign:23 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata
+[33m78% [Waiting for headers]                                                                       2486 kB/s 3s[0m[33m78% [24 Packages store 0 B] [Waiting for headers]                                               2486 kB/s 3s[0m                                                                                                            Ign:24 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages
+[33m78% [Waiting for headers]                                                                       2486 kB/s 3s[0m[33m78% [25 Translation-en store 0 B] [Waiting for headers]                                         2486 kB/s 3s[0m                                                                                                            Ign:25 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en
+[33m78% [Waiting for headers]                                                                       2486 kB/s 3s[0m                                                                                                            Ign:26 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata
+[33m78% [Waiting for headers]                                                                       2486 kB/s 3s[0m[33m78% [27 Packages store 0 B] [Waiting for headers]                                               2486 kB/s 3s[0m                                                                                                            Ign:27 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages
+[33m77% [Waiting for headers]                                                                       2486 kB/s 3s[0m[33m77% [28 Translation-en store 0 B] [Waiting for headers]                                         2486 kB/s 3s[0m                                                                                                            Ign:28 http://archive.ubuntu.com/ubuntu jammy-backports/main Translation-en
+[33m77% [Waiting for headers]                                                                       2486 kB/s 3s[0m                                                                                                            Ign:29 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata
+[33m77% [Waiting for headers]                                                                       2486 kB/s 3s[0m[33m77% [30 Commands-amd64 store 0 B] [Waiting for headers]                                         2486 kB/s 3s[0m                                                                                                            Ign:30 http://archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata
+[33m77% [Waiting for headers]                                                                       2486 kB/s 3s[0m[33m77% [31 Packages store 0 B] [Waiting for headers]                                               2486 kB/s 3s[0m                                                                                                            Ign:31 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages
+[33m77% [Waiting for headers]                                                                       2486 kB/s 3s[0m[33m77% [32 Translation-en store 0 B] [Waiting for headers]                                         2486 kB/s 3s[0m                                                                                                            Ign:32 http://archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en
+[33m77% [Waiting for headers]                                                                       2486 kB/s 3s[0m[33m77% [33 Commands-amd64 store 0 B] [Waiting for headers]                                         2486 kB/s 3s[0m                                                                                                            Ign:33 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata
+[33m77% [Waiting for headers]                                                                       2486 kB/s 3s[0m                                                                                                            Ign:34 http://archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata
+[33m77% [Waiting for headers]                                                                       2486 kB/s 3s[0m                                                                                                            Ign:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:20 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:21 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:22 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:23 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:24 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:25 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:26 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:27 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages
+[33m77% [Connecting to archive.ubuntu.com (91.189.91.83)]                                           2486 kB/s 3s[0m                                                                                                            Ign:28 http://archive.ubuntu.com/ubuntu jammy-backports/main Translation-en
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:29 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:30 http://archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata
+                                                                                                            Ign:31 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages
+[33m77% [Connecting to archive.ubuntu.com (2a06:bc80:0:1000::16)]                                   2486 kB/s 3s[0m                                                                                                            Ign:32 http://archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:33 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:34 http://archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata
+[33m77% [Working]                                                                                   2486 kB/s 3s[0m                                                                                                            Ign:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages
+[33m57% [Connecting to archive.ubuntu.com (185.125.190.83)]                                        2486 kB/s 10s[0m                                                                                                            Ign:20 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en
+[33m48% [Working]                                                                                  2486 kB/s 16s[0m                                                                                                            Ign:21 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+[33m45% [Working]                                                                                  2486 kB/s 18s[0m                                                                                                            Ign:22 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en
+[33m44% [Working]                                                                                  2486 kB/s 19s[0m                                                                                                            Err:23 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata
+  Could not create temporary file for /var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy-updates_universe_cnf_Commands-amd64 - mkstemp (28: No space left on device)
+[33m45% [Working]                                                                                  2486 kB/s 19s[0m                                                                                                            Ign:24 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages
+[33m45% [Working]                                                                                  2486 kB/s 19s[0m                                                                                                            Ign:25 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en
+[33m45% [Working]                                                                                  2486 kB/s 19s[0m                                                                                                            Ign:26 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata
+[33m46% [Working]                                                                                  2486 kB/s 19s[0m                                                                                                            Ign:27 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages
+[33m46% [Working]                                                                                  2486 kB/s 19s[0m                                                                                                            Ign:28 http://archive.ubuntu.com/ubuntu jammy-backports/main Translation-en
+[33m46% [Working]                                                                                  2486 kB/s 20s[0m                                                                                                            Err:29 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata
+  Could not create temporary file for /var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy-backports_main_cnf_Commands-amd64 - mkstemp (28: No space left on device)
+[33m46% [Working]                                                                                  2486 kB/s 20s[0m                                                                                                            Ign:30 http://archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata
+[33m46% [Working]                                                                                  2486 kB/s 20s[0m                                                                                                            Ign:31 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages
+[33m46% [Working]                                                                                  2486 kB/s 20s[0m                                                                                                            Ign:32 http://archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en
+[33m46% [Working]                                                                                  2486 kB/s 20s[0m                                                                                                            Ign:33 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata
+[33m46% [Working]                                                                                  2486 kB/s 20s[0m                                                                                                            Ign:34 http://archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata
+[33m47% [Working]                                                                                  2486 kB/s 20s[0m                                                                                                            Ign:27 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages
+[33m47% [Working]                                                                                  2486 kB/s 20s[0m                                                                                                            Ign:28 http://archive.ubuntu.com/ubuntu jammy-backports/main Translation-en
+[33m47% [Working]                                                                                  2486 kB/s 20s[0m                                                                                                            Fetched 32.7 MB in 22s (1473 kB/s)
+Error: Timeout was reached
+Reading package lists... 0%Reading package lists... Error!
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/dists/jammy-security/InRelease  rename failed, No space left on device (/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_InRelease -> /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_InRelease).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_main_binary-amd64_Packages.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_main_binary-amd64_Packages -> /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_main_binary-amd64_Packages).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_main_i18n_Translation-en.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_main_i18n_Translation-en -> /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_main_i18n_Translation-en).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_universe_binary-amd64_Packages.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_universe_binary-amd64_Packages -> /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_universe_binary-amd64_Packages).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_universe_i18n_Translation-en.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_universe_i18n_Translation-en -> /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_universe_i18n_Translation-en).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_universe_cnf_Commands-amd64.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_universe_cnf_Commands-amd64 -> /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_universe_cnf_Commands-amd64).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_binary-amd64_Packages.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_binary-amd64_Packages -> /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_binary-amd64_Packages).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_i18n_Translation-en.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_i18n_Translation-en -> /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_i18n_Translation-en).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_cnf_Commands-amd64.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_cnf_Commands-amd64 -> /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_cnf_Commands-amd64).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_universe_binary-amd64_Packages.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_universe_binary-amd64_Packages -> /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_jammy_universe_binary-amd64_Packages).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_universe_i18n_Translation-en.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_universe_i18n_Translation-en -> /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_jammy_universe_i18n_Translation-en).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_universe_cnf_Commands-amd64.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_universe_cnf_Commands-amd64 -> /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_jammy_universe_cnf_Commands-amd64).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_multiverse_binary-amd64_Packages.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_multiverse_binary-amd64_Packages -> /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_jammy_multiverse_binary-amd64_Packages).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_multiverse_i18n_Translation-en.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_multiverse_i18n_Translation-en -> /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_jammy_multiverse_i18n_Translation-en).[0m
+[1;31mE: [0mFailed to fetch store:/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_multiverse_cnf_Commands-amd64.xz  rename failed, No space left on device (/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_multiverse_cnf_Commands-amd64 -> /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_jammy_multiverse_cnf_Commands-amd64).[0m
+[1;31mE: [0mFailed to fetch http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/cnf/Commands-amd64  Could not create temporary file for /var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy-updates_universe_cnf_Commands-amd64 - mkstemp (28: No space left on device)[0m
+[1;31mE: [0mFailed to fetch http://archive.ubuntu.com/ubuntu/dists/jammy-backports/main/cnf/Commands-amd64  Could not create temporary file for /var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy-backports_main_cnf_Commands-amd64 - mkstemp (28: No space left on device)[0m
+[1;31mE: [0mSome index files failed to download. They have been ignored, or old ones used instead.[0m
+[1;31mE: [0mUnable to mkstemp /tmp/clearsigned.message.o2neQc - GetTempFile (28: No space left on device)[0m
+[1;31mE: [0mThe package lists or status file could not be parsed or opened.[0m
+[?2004h]0;root@apache-web: ~root@apache-web:~# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@apache-web: ~root@apache-web:~# exit
+[?2004lexit
+]666;vte.shell.postexec=130\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ [7mlxc storage set default size=+10GB[27mlxc storage set default size=+10GB[1P
+[?2004l]133;C\]666;vte.shell.preexec!\If this is your first time running LXD on this machine, you should also run: lxd init
+To start your first container, try: lxc launch ubuntu:24.04
+Or for a virtual machine: lxc launch ubuntu:24.04 --vm
+
+Error: LXD unix socket "/var/snap/lxd/common/lxd/unix.socket" not accessible: permission denied
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ lxc storage set default size=+1GB[1@s[1@u[1@d[1@o[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\Error: Invalid value for option "size": Invalid value: +1GB
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc storage set default size=+1GB[CiB
+[?2004l]133;C\]666;vte.shell.preexec!\Error: Invalid value for option "size": Invalid value: +1GiB
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc storage set default size=+1GiB[K[K[K[K[K
+[?2004l]133;C\]666;vte.shell.preexec!\Error: Pool cannot be shrunk
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc storage set default size=2GiB
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc storage set default size=2GiB[K+1GiB[1PB[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Psudo lxc exec apache-web bashlist[Kexec apache-web bash
+[?2004l]133;C\]666;vte.shell.preexec!\[?2004h]0;root@apache-web: ~root@apache-web:~# df -n
+[?2004ldf: invalid option -- 'n'
+Try 'df --help' for more information.
+[?2004h]0;root@apache-web: ~root@apache-web:~# df -n[K-help
+[?2004lUsage: df [OPTION]... [FILE]...
+Show information about the file system on which each FILE resides,
+or all file systems by default.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all             include pseudo, duplicate, inaccessible file systems
+  -B, --block-size=SIZE  scale sizes by SIZE before printing them; e.g.,
+                           '-BM' prints sizes in units of 1,048,576 bytes;
+                           see SIZE format below
+  -h, --human-readable  print sizes in powers of 1024 (e.g., 1023M)
+  -H, --si              print sizes in powers of 1000 (e.g., 1.1G)
+  -i, --inodes          list inode information instead of block usage
+  -k                    like --block-size=1K
+  -l, --local           limit listing to local file systems
+      --no-sync         do not invoke sync before getting usage info (default)
+      --output[=FIELD_LIST]  use the output format defined by FIELD_LIST,
+                               or print all fields if FIELD_LIST is omitted.
+  -P, --portability     use the POSIX output format
+      --sync            invoke sync before getting usage info
+      --total           elide all entries insignificant to available space,
+                          and produce a grand total
+  -t, --type=TYPE       limit listing to file systems of type TYPE
+  -T, --print-type      print file system type
+  -x, --exclude-type=TYPE   limit listing to file systems not of type TYPE
+  -v                    (ignored)
+      --help     display this help and exit
+      --version  output version information and exit
+
+Display values are in units of the first available SIZE from --block-size,
+and the DF_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment variables.
+Otherwise, units default to 1024 bytes (or 512 if POSIXLY_CORRECT is set).
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+
+FIELD_LIST is a comma-separated list of columns to be included.  Valid
+field names are: 'source', 'fstype', 'itotal', 'iused', 'iavail', 'ipcent',
+'size', 'used', 'avail', 'pcent', 'file' and 'target' (see info page).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/df>
+or available locally via: info '(coreutils) df invocation'
+[?2004h]0;root@apache-web: ~root@apache-web:~# df --helpn[K[Kh
+[?2004lFilesystem                     Size  Used Avail Use% Mounted on
+default/containers/apache-web  1.8G  778M  1.1G  43% /
+none                           492K  4.0K  488K   1% /dev
+tmpfs                          1.0M     0  1.0M   0% /dev/lxd
+tmpfs                          100K     0  100K   0% /dev/.lxd-mounts
+tmpfs                          1.7G     0  1.7G   0% /dev/shm
+tmpfs                          680M  204K  680M   1% /run
+tmpfs                          5.0M     0  5.0M   0% /run/lock
+snapfuse                        45M   45M     0 100% /snap/snapd/28254
+snapfuse                       116M  116M     0 100% /snap/lxd/40911
+snapfuse                        74M   74M     0 100% /snap/core22/2955
+[?2004h]0;root@apache-web: ~root@apache-web:~# df -h-helpn[K[1Pexitapt update && apt install apache2 -y
+[?2004l[33m0% [Working][0m            Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Waiting for headers][0m                        Get:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+[33m0% [2 InRelease 0 B/128 kB 0%] [Waiting for headers][0m[33m0% [2 InRelease 30.4 kB/128 kB 24%] [Waiting for headers][0m                                                         Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+[33m0% [2 InRelease 33.3 kB/128 kB 26%] [3 InRelease 14.3 kB/129 kB 11%][0m[33m                                                                    0% [3 InRelease 21.6 kB/129 kB 17%][0m                                   Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+[33m0% [4 InRelease 81.5 kB/127 kB 64%] [3 InRelease 47.9 kB/129 kB 37%][0m[33m                                                                    0% [4 InRelease 127 kB/127 kB 100%] [3 InRelease 122 kB/129 kB 95%][0m[33m                                                                   0% [3 InRelease 122 kB/129 kB 95%][0m[33m                                  0% [Working][0m            Get:5 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+[33m0% [5 Packages 14.1 MB][0m[33m                       0% [Working][0m[33m0% [5 Packages store 64.3 MB][0m                             Get:6 http://archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
+                             Get:7 http://archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
+[33m0% [5 Packages store 64.3 MB][0m                             Get:8 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
+                             Get:9 http://archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
+[33m0% [5 Packages store 64.3 MB][0m                             Get:10 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
+[33m0% [5 Packages store 64.3 MB] [10 Commands-amd64 8372 B][0m[33m                                                        0% [5 Packages store 64.3 MB][0m                             Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [3909 kB]
+[33m0% [5 Packages store 64.3 MB][0m                             Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [576 kB]
+[33m0% [5 Packages store 64.3 MB][0m                             Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1289 kB]
+[33m0% [5 Packages store 64.3 MB] [13 Packages 1289 kB][0m[33m                                                   0% [5 Packages store 64.3 MB][0m                             Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [326 kB]
+                             Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [30.8 kB]
+                             Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [86.1 kB]
+                             Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [16.6 kB]
+                             Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [756 B]
+[33m0% [5 Packages store 64.3 MB][0m[33m0% [5 Packages store 64.3 MB][0m                             Get:19 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [70.2 kB]
+[33m0% [5 Packages store 64.3 MB][0m                             Get:20 http://archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11.4 kB]
+                             Get:21 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [412 B]
+                             Get:22 http://archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
+                             Get:23 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [30.8 kB]
+                             Get:24 http://archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.9 kB]
+                             Get:25 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [676 B]
+                             Get:26 http://archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
+[33m0% [5 Packages store 64.3 MB][0m[33m66% [5 Packages store 64.3 MB][0m                              Get:27 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3643 kB]
+[33m73% [5 Packages store 64.3 MB] [27 Packages 3643 kB][0m[33m                                                    73% [5 Packages store 64.3 MB][0m                              Get:28 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [510 kB]
+[33m74% [5 Packages store 64.3 MB][0m                              Get:29 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [14.7 kB]
+[33m74% [5 Packages store 64.3 MB] [29 Commands-amd64 0 B][0m[33m                                                      76% [5 Packages store 64.3 MB][0m                              Get:29 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [14.7 kB]
+                              Get:29 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [14.7 kB]
+[33m76% [5 Packages store 64.3 MB][0m                              Get:29 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [14.7 kB]
+                              Get:29 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [14.7 kB]
+                              Get:29 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [14.7 kB]
+[33m77% [5 Packages store 64.3 MB] [Waiting for headers][0m                                                    Hit:29 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata
+                                                    Hit:36 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages
+                                                    Hit:37 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en
+                                                    Hit:38 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata
+[33m                                                    92% [5 Packages store 64.3 MB][0m[33m92% [5 Packages store 64.3 MB][0m[33m92% [5 Packages store 64.3 MB][0m[33m                              92% [Working][0m[33m92% [6 Translation-en store 29.8 MB][0m[33m92% [6 Translation-en store 29.8 MB][0m[33m                                    92% [Working][0m[33m92% [7 Commands-amd64 store 1287 kB][0m[33m                                    93% [Working][0m[33m93% [8 Packages store 918 kB][0m[33m                             93% [Working][0m[33m93% [9 Translation-en store 500 kB][0m[33m                                   93% [Working][0m[33m93% [10 Commands-amd64 store 29.8 kB][0m[33m                                     93% [Working][0m[33m93% [11 Packages store 0 B][0m[33m                           94% [Working][0m[33m94% [12 Translation-en store 0 B][0m[33m                                 94% [Working][0m[33m94% [13 Packages store 0 B][0m[33m                           94% [Working][0m[33m94% [14 Translation-en store 0 B][0m[33m                                 94% [Working][0m[33m94% [15 Commands-amd64 store 0 B][0m[33m                                 95% [Working][0m[33m95% [16 Packages store 0 B][0m[33m                           95% [Working][0m[33m95% [17 Translation-en store 0 B][0m[33m                                 95% [Working][0m[33m95% [18 Commands-amd64 store 0 B][0m[33m                                 95% [Working][0m[33m95% [19 Packages store 0 B][0m[33m                           95% [Working][0m[33m95% [20 Translation-en store 0 B][0m[33m                                 96% [Working][0m[33m96% [21 Commands-amd64 store 0 B][0m[33m                                 96% [Working][0m[33m96% [22 Commands-amd64 store 0 B][0m[33m                                 96% [Working][0m[33m96% [23 Packages store 0 B][0m[33m                           96% [Working][0m[33m96% [24 Translation-en store 0 B][0m[33m                                 97% [Working][0m[33m97% [25 Commands-amd64 store 0 B][0m[33m                                 97% [Working][0m[33m97% [Working][0m[33m97% [27 Packages store 20.7 MB][0m[33m                               97% [Working][0m[33m97% [28 Translation-en store 15.5 MB][0m[33m                                     98% [Working][0m[33m98% [30 Packages store 6216 kB][0m[33m                               98% [Working][0m[33m98% [31 Translation-en store 2644 kB][0m[33m                                     98% [Working][0m[33m98% [32 Commands-amd64 store 182 kB][0m[33m                                    98% [Working][0m[33m98% [33 Packages store 593 kB][0m[33m                              99% [Working][0m[33m99% [34 Translation-en store 164 kB][0m[33m                                    99% [Working][0m[33m99% [35 Commands-amd64 store 2063 B][0m[33m                                    99% [Working][0m[33m99% [29 Commands-amd64 store 58.9 kB][0m[33m                                     99% [Working][0m[33m99% [36 Packages store 37.9 MB][0m[33m100% [Working]                                                                                  6654 kB/s 0s[0m[33m100% [37 Translation-en store 24.8 MB]                                                          6654 kB/s 0s[0m[33m100% [Working]                                                                                  6654 kB/s 0s[0m[33m100% [38 Commands-amd64 store 5042 B]                                                           6654 kB/s 0s[0m[33m100% [Working]                                                                                  6654 kB/s 0s[0m                                                                                                            Fetched 384 kB in 6s (62.0 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 2%Reading package lists... 2%Reading package lists... 2%Reading package lists... 2%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 22%Reading package lists... 22%Reading package lists... 31%Reading package lists... 31%Reading package lists... 32%Reading package lists... 32%Reading package lists... 32%Reading package lists... 32%Reading package lists... 32%Reading package lists... 38%Reading package lists... 38%Reading package lists... 43%Reading package lists... 43%Reading package lists... 55%Reading package lists... 55%Reading package lists... 63%Reading package lists... 63%Reading package lists... 65%Reading package lists... 65%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 67%Reading package lists... 67%Reading package lists... 67%Reading package lists... 73%Reading package lists... 73%Reading package lists... 77%Reading package lists... 77%Reading package lists... 89%Reading package lists... 89%Reading package lists... 96%Reading package lists... 96%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+12 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils bzip2 libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap
+  liblua5.3-0 mailcap mime-support ssl-cert
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser bzip2-doc
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils bzip2 libapr1 libaprutil1 libaprutil1-dbd-sqlite3
+  libaprutil1-ldap liblua5.3-0 mailcap mime-support ssl-cert
+0 upgraded, 13 newly installed, 0 to remove and 12 not upgraded.
+Need to get 2158 kB of archives.
+After this operation, 8562 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libapr1 amd64 1.7.0-8ubuntu0.22.04.2 [108 kB]
+[33m0% [1 libapr1 12.8 kB/108 kB 12%][0m[33m                                 6% [Working][0m            Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1 amd64 1.6.1-5ubuntu4.22.04.3 [93.4 kB]
+[33m6% [2 libaprutil1 9929 B/93.4 kB 11%][0m                                     Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-5ubuntu4.22.04.3 [11.4 kB]
+[33m11% [3 libaprutil1-dbd-sqlite3 3823 B/11.4 kB 34%][0m[33m                                                  13% [Working][0m             Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1-ldap amd64 1.6.1-5ubuntu4.22.04.3 [9164 B]
+             Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 liblua5.3-0 amd64 5.3.6-1build1 [140 kB]
+[33m15% [5 liblua5.3-0 6084 B/140 kB 4%][0m                                    Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-bin amd64 2.4.52-1ubuntu4.25 [1363 kB]
+[33m21% [6 apache2-bin 8760 B/1363 kB 1%][0m[33m51% [6 apache2-bin 807 kB/1363 kB 59%][0m                                      Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-data all 2.4.52-1ubuntu4.25 [165 kB]
+[33m                                      73% [7 apache2-data 7868 B/165 kB 5%][0m[33m                                     81% [Working][0m             Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-utils amd64 2.4.52-1ubuntu4.25 [90.5 kB]
+[33m81% [8 apache2-utils 1387 B/90.5 kB 2%][0m                                       Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 mailcap all 3.70+nmu1ubuntu1.22.04.1 [23.9 kB]
+[33m                                       86% [9 mailcap 19.9 kB/23.9 kB 83%][0m                                   Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 mime-support all 3.66 [3696 B]
+                                   Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2 amd64 2.4.52-1ubuntu4.25 [97.9 kB]
+[33m                                   90% [11 apache2 3643 B/97.9 kB 4%][0m                                  Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 bzip2 amd64 1.0.8-5ubuntu0.1 [34.8 kB]
+[33m96% [12 bzip2 34.8 kB/34.8 kB 100%][0m[33m                                   98% [Working][0m             Get:13 http://archive.ubuntu.com/ubuntu jammy/main amd64 ssl-cert all 1.1.2 [17.4 kB]
+[33m98% [13 ssl-cert 0 B/17.4 kB 0%][0m[33m                                100% [Working][0m              Fetched 2158 kB in 2s (1269 kB/s)
+Preconfiguring packages ...
+
+7[0;29r8[1ASelecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 34208 files and directories currently installed.)
+Preparing to unpack .../00-libapr1_1.7.0-8ubuntu0.22.04.2_amd64.deb ...
+7[30;0f[42m[30mProgress: [  0%][49m[39m [.......................................................................................] 87[30;0f[42m[30mProgress: [  2%][49m[39m [#......................................................................................] 8Unpacking libapr1:amd64 (1.7.0-8ubuntu0.22.04.2) ...
+7[30;0f[42m[30mProgress: [  4%][49m[39m [###....................................................................................] 8Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../01-libaprutil1_1.6.1-5ubuntu4.22.04.3_amd64.deb ...
+7[30;0f[42m[30mProgress: [  6%][49m[39m [####...................................................................................] 8Unpacking libaprutil1:amd64 (1.6.1-5ubuntu4.22.04.3) ...
+7[30;0f[42m[30mProgress: [  8%][49m[39m [######.................................................................................] 8Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../02-libaprutil1-dbd-sqlite3_1.6.1-5ubuntu4.22.04.3_amd64.deb ...
+7[30;0f[42m[30mProgress: [  9%][49m[39m [########...............................................................................] 8Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-5ubuntu4.22.04.3) ...
+7[30;0f[42m[30mProgress: [ 11%][49m[39m [#########..............................................................................] 8Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../03-libaprutil1-ldap_1.6.1-5ubuntu4.22.04.3_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 13%][49m[39m [###########............................................................................] 8Unpacking libaprutil1-ldap:amd64 (1.6.1-5ubuntu4.22.04.3) ...
+7[30;0f[42m[30mProgress: [ 15%][49m[39m [#############..........................................................................] 8Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../04-liblua5.3-0_5.3.6-1build1_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 17%][49m[39m [##############.........................................................................] 8Unpacking liblua5.3-0:amd64 (5.3.6-1build1) ...
+7[30;0f[42m[30mProgress: [ 19%][49m[39m [################.......................................................................] 8Selecting previously unselected package apache2-bin.
+Preparing to unpack .../05-apache2-bin_2.4.52-1ubuntu4.25_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 21%][49m[39m [##################.....................................................................] 8Unpacking apache2-bin (2.4.52-1ubuntu4.25) ...
+7[30;0f[42m[30mProgress: [ 23%][49m[39m [###################....................................................................] 8Selecting previously unselected package apache2-data.
+Preparing to unpack .../06-apache2-data_2.4.52-1ubuntu4.25_all.deb ...
+7[30;0f[42m[30mProgress: [ 25%][49m[39m [#####################..................................................................] 8Unpacking apache2-data (2.4.52-1ubuntu4.25) ...
+7[30;0f[42m[30mProgress: [ 26%][49m[39m [######################.................................................................] 8Selecting previously unselected package apache2-utils.
+Preparing to unpack .../07-apache2-utils_2.4.52-1ubuntu4.25_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 28%][49m[39m [########################...............................................................] 8Unpacking apache2-utils (2.4.52-1ubuntu4.25) ...
+7[30;0f[42m[30mProgress: [ 30%][49m[39m [##########################.............................................................] 8Selecting previously unselected package mailcap.
+Preparing to unpack .../08-mailcap_3.70+nmu1ubuntu1.22.04.1_all.deb ...
+7[30;0f[42m[30mProgress: [ 32%][49m[39m [###########################............................................................] 8Unpacking mailcap (3.70+nmu1ubuntu1.22.04.1) ...
+7[30;0f[42m[30mProgress: [ 34%][49m[39m [#############################..........................................................] 8Selecting previously unselected package mime-support.
+Preparing to unpack .../09-mime-support_3.66_all.deb ...
+7[30;0f[42m[30mProgress: [ 36%][49m[39m [###############################........................................................] 8Unpacking mime-support (3.66) ...
+7[30;0f[42m[30mProgress: [ 38%][49m[39m [################################.......................................................] 8Selecting previously unselected package apache2.
+Preparing to unpack .../10-apache2_2.4.52-1ubuntu4.25_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 40%][49m[39m [##################################.....................................................] 8Unpacking apache2 (2.4.52-1ubuntu4.25) ...
+7[30;0f[42m[30mProgress: [ 42%][49m[39m [####################################...................................................] 8Selecting previously unselected package bzip2.
+Preparing to unpack .../11-bzip2_1.0.8-5ubuntu0.1_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 43%][49m[39m [#####################################..................................................] 8Unpacking bzip2 (1.0.8-5ubuntu0.1) ...
+7[30;0f[42m[30mProgress: [ 45%][49m[39m [#######################################................................................] 8Selecting previously unselected package ssl-cert.
+Preparing to unpack .../12-ssl-cert_1.1.2_all.deb ...
+7[30;0f[42m[30mProgress: [ 47%][49m[39m [#########################################..............................................] 8Unpacking ssl-cert (1.1.2) ...
+7[30;0f[42m[30mProgress: [ 49%][49m[39m [##########################################.............................................] 8Setting up libapr1:amd64 (1.7.0-8ubuntu0.22.04.2) ...
+7[30;0f[42m[30mProgress: [ 51%][49m[39m [############################################...........................................] 87[30;0f[42m[30mProgress: [ 53%][49m[39m [#############################################..........................................] 8Setting up bzip2 (1.0.8-5ubuntu0.1) ...
+7[30;0f[42m[30mProgress: [ 55%][49m[39m [###############################################........................................] 87[30;0f[42m[30mProgress: [ 57%][49m[39m [#################################################......................................] 8Setting up ssl-cert (1.1.2) ...
+7[30;0f[42m[30mProgress: [ 58%][49m[39m [##################################################.....................................] 87[30;0f[42m[30mProgress: [ 60%][49m[39m [####################################################...................................] 8Setting up liblua5.3-0:amd64 (5.3.6-1build1) ...
+7[30;0f[42m[30mProgress: [ 62%][49m[39m [######################################################.................................] 87[30;0f[42m[30mProgress: [ 64%][49m[39m [#######################################################................................] 8Setting up apache2-data (2.4.52-1ubuntu4.25) ...
+7[30;0f[42m[30mProgress: [ 66%][49m[39m [#########################################################..............................] 87[30;0f[42m[30mProgress: [ 68%][49m[39m [###########################################################............................] 8Setting up mailcap (3.70+nmu1ubuntu1.22.04.1) ...
+7[30;0f[42m[30mProgress: [ 70%][49m[39m [############################################################...........................] 87[30;0f[42m[30mProgress: [ 72%][49m[39m [##############################################################.........................] 8Setting up libaprutil1:amd64 (1.6.1-5ubuntu4.22.04.3) ...
+7[30;0f[42m[30mProgress: [ 74%][49m[39m [################################################################.......................] 87[30;0f[42m[30mProgress: [ 75%][49m[39m [#################################################################......................] 8Setting up mime-support (3.66) ...
+7[30;0f[42m[30mProgress: [ 77%][49m[39m [###################################################################....................] 87[30;0f[42m[30mProgress: [ 79%][49m[39m [####################################################################...................] 8Setting up libaprutil1-ldap:amd64 (1.6.1-5ubuntu4.22.04.3) ...
+7[30;0f[42m[30mProgress: [ 81%][49m[39m [######################################################################.................] 87[30;0f[42m[30mProgress: [ 83%][49m[39m [########################################################################...............] 8Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-5ubuntu4.22.04.3) ...
+7[30;0f[42m[30mProgress: [ 85%][49m[39m [#########################################################################..............] 87[30;0f[42m[30mProgress: [ 87%][49m[39m [###########################################################################............] 8Setting up apache2-utils (2.4.52-1ubuntu4.25) ...
+7[30;0f[42m[30mProgress: [ 89%][49m[39m [#############################################################################..........] 87[30;0f[42m[30mProgress: [ 91%][49m[39m [##############################################################################.........] 8Setting up apache2-bin (2.4.52-1ubuntu4.25) ...
+7[30;0f[42m[30mProgress: [ 92%][49m[39m [################################################################################.......] 87[30;0f[42m[30mProgress: [ 94%][49m[39m [##################################################################################.....] 8Setting up apache2 (2.4.52-1ubuntu4.25) ...
+7[30;0f[42m[30mProgress: [ 96%][49m[39m [###################################################################################....] 8Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+7[30;0f[42m[30mProgress: [ 98%][49m[39m [#####################################################################################..] 8Processing triggers for ufw (0.36.1-4ubuntu0.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.15) ...
+
+7[0;30r8[1A[JScanning processes... [                                                                                     ]Scanning processes... [==                                                                                   ]Scanning processes... [=====                                                                                ]Scanning processes... [========                                                                             ]Scanning processes... [===========                                                                          ]Scanning processes... [==============                                                                       ]Scanning processes... [=================                                                                    ]Scanning processes... [====================                                                                 ]Scanning processes... [=======================                                                              ]Scanning processes... [==========================                                                           ]Scanning processes... [=============================                                                        ]Scanning processes... [================================                                                     ]Scanning processes... [===================================                                                  ]Scanning processes... [======================================                                               ]Scanning processes... [=========================================                                            ]Scanning processes... [===========================================                                          ]Scanning processes... [==============================================                                       ]Scanning processes... [=================================================                                    ]Scanning processes... [====================================================                                 ]Scanning processes... [=======================================================                              ]Scanning processes... [==========================================================                           ]Scanning processes... [=============================================================                        ]Scanning processes... [================================================================                     ]Scanning processes... [===================================================================                  ]Scanning processes... [======================================================================               ]Scanning processes... [=========================================================================            ]Scanning processes... [============================================================================         ]Scanning processes... [===============================================================================      ]Scanning processes... [==================================================================================   ]Scanning processes... [=====================================================================================]Scanning processes...                                                                                        
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+[?2004h]0;root@apache-web: ~root@apache-web:~# curl http?[K://localhost
+[?2004l<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+    Modified from the Debian original for Ubuntu
+    Last updated: 2022-03-22
+    See: https://launchpad.net/bugs/1966004
+  -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Apache2 Ubuntu Default Page: It works</title>
+    <style type="text/css" media="screen">
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+
+    background-color: #D8DBE2;
+
+    font-family: Ubuntu, Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+
+    width: 800px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+    border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
+
+    background-color: #FFFFFF;
+
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 180px;
+    width: 100%;
+
+    background-color: #F5F6F7;
+  }
+
+  div.page_header span {
+    margin: 15px 0px 0px 50px;
+
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+  div.page_header img {
+    margin: 3px 0px 0px 40px;
+
+    border: 0px 0px 0px;
+  }
+
+  div.banner {
+    padding: 9px 6px 9px 6px;
+    background-color: #E9510E;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    bottom: 30px;
+    width: 20%;
+  }
+
+  div.table_of_contents {
+    clear: left;
+
+    min-width: 200px;
+
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.table_of_contents_item {
+    clear: left;
+
+    width: 100%;
+
+    margin: 4px 0px 0px 0px;
+
+    background-color: #FFFFFF;
+
+    color: #000000;
+    text-align: left;
+  }
+
+  div.table_of_contents_item a {
+    margin: 6px 0px 0px 6px;
+  }
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+
+    color: #000000;
+    font-size: 100%;
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+    background-color: #F5F6F7;
+
+    font-style: italic;
+  }
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+    padding: 4px 8px 4px 16px;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #8E9CB2;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.section_header_grey {
+    background-color: #9F9386;
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+  div.table_of_contents_item a,
+  div.content_section_text a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  div.table_of_contents_item a:link,
+  div.table_of_contents_item a:visited,
+  div.table_of_contents_item a:active {
+    color: #000000;
+  }
+
+  div.table_of_contents_item a:hover {
+    background-color: #000000;
+
+    color: #FFFFFF;
+  }
+
+  div.content_section_text a:link,
+  div.content_section_text a:visited,
+   div.content_section_text a:active {
+    background-color: #DCDFE6;
+
+    color: #000000;
+  }
+
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+
+  div.validator {
+  }
+    </style>
+  </head>
+  <body>
+    <div class="main_page">
+      <div class="page_header floating_element">
+        <img src="icons/ubuntu-logo.png" alt="Ubuntu Logo"
+             style="width:184px;height:146px;" class="floating_element" />
+        <div>
+          <span style="margin-top: 1.5em;" class="floating_element">
+            Apache2 Default Page
+          </span>
+        </div>
+        <div class="banner">
+          <div id="about"></div>
+          It works!
+        </div>
+
+      </div>
+      <div class="content_section floating_element">
+        <div class="content_section_text">
+          <p>
+                This is the default welcome page used to test the correct 
+                operation of the Apache2 server after installation on Ubuntu systems.
+                It is based on the equivalent page on Debian, from which the Ubuntu Apache
+                packaging is derived.
+                If you can read this page, it means that the Apache HTTP server installed at
+                this site is working properly. You should <b>replace this file</b> (located at
+                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.
+          </p>
+
+          <p>
+                If you are a normal user of this web site and don't know what this page is
+                about, this probably means that the site is currently unavailable due to
+                maintenance.
+                If the problem persists, please contact the site's administrator.
+          </p>
+
+        </div>
+        <div class="section_header">
+          <div id="changes"></div>
+                Configuration Overview
+        </div>
+        <div class="content_section_text">
+          <p>
+                Ubuntu's Apache2 default configuration is different from the
+                upstream default configuration, and split into several files optimized for
+                interaction with Ubuntu tools. The configuration system is
+                <b>fully documented in
+                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
+                documentation. Documentation for the web server itself can be
+                found by accessing the <a href="/manual">manual</a> if the <tt>apache2-doc</tt>
+                package was installed on this server.
+          </p>
+          <p>
+                The configuration layout for an Apache2 web server installation on Ubuntu systems is as follows:
+          </p>
+          <pre>
+/etc/apache2/
+|-- apache2.conf
+|       `--  ports.conf
+|-- mods-enabled
+|       |-- *.load
+|       `-- *.conf
+|-- conf-enabled
+|       `-- *.conf
+|-- sites-enabled
+|       `-- *.conf
+          </pre>
+          <ul>
+                        <li>
+                           <tt>apache2.conf</tt> is the main configuration
+                           file. It puts the pieces together by including all remaining configuration
+                           files when starting up the web server.
+                        </li>
+
+                        <li>
+                           <tt>ports.conf</tt> is always included from the
+                           main configuration file. It is used to determine the listening ports for
+                           incoming connections, and this file can be customized anytime.
+                        </li>
+
+                        <li>
+                           Configuration files in the <tt>mods-enabled/</tt>,
+                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain
+                           particular configuration snippets which manage modules, global configuration
+                           fragments, or virtual host configurations, respectively.
+                        </li>
+
+                        <li>
+                           They are activated by symlinking available
+                           configuration files from their respective
+                           *-available/ counterparts. These should be managed
+                           by using our helpers
+                           <tt>
+                                a2enmod,
+                                a2dismod,
+                           </tt>
+                           <tt>
+                                a2ensite,
+                                a2dissite,
+                            </tt>
+                                and
+                           <tt>
+                                a2enconf,
+                                a2disconf
+                           </tt>. See their respective man pages for detailed information.
+                        </li>
+
+                        <li>
+                           The binary is called apache2 and is managed using systemd, so to
+                           start/stop the service use <tt>systemctl start apache2</tt> and
+                           <tt>systemctl stop apache2</tt>, and use <tt>systemctl status apache2</tt>
+                           and <tt>journalctl -u apache2</tt> to check status.  <tt>system</tt>
+                           and <tt>apache2ctl</tt> can also be used for service management if
+                           desired.
+                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the
+                           default configuration.
+                        </li>
+          </ul>
+        </div>
+
+        <div class="section_header">
+            <div id="docroot"></div>
+                Document Roots
+        </div>
+
+        <div class="content_section_text">
+            <p>
+                By default, Ubuntu does not allow access through the web browser to
+                <em>any</em> file outside of those located in <tt>/var/www</tt>,
+                <a href="http://httpd.apache.org/docs/2.4/mod/mod_userdir.html" rel="nofollow">public_html</a>
+                directories (when enabled) and <tt>/usr/share</tt> (for web
+                applications). If your site is using a web document root
+                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your
+                document root directory in <tt>/etc/apache2/apache2.conf</tt>.
+            </p>
+            <p>
+                The default Ubuntu document root is <tt>/var/www/html</tt>. You
+                can make your own virtual hosts under /var/www.
+            </p>
+        </div>
+
+        <div class="section_header">
+          <div id="bugs"></div>
+                Reporting Problems
+        </div>
+        <div class="content_section_text">
+          <p>
+                Please use the <tt>ubuntu-bug</tt> tool to report bugs in the
+                Apache2 package with Ubuntu. However, check <a
+                href="https://bugs.launchpad.net/ubuntu/+source/apache2"
+                rel="nofollow">existing bug reports</a> before reporting a new bug.
+          </p>
+          <p>
+                Please report bugs specific to modules (such as PHP and others)
+                to their respective packages, not to the web server itself.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="validator">
+    </div>
+  </body>
+</html>
+[?2004h]0;root@apache-web: ~root@apache-web:~# exit
+[?2004lexit
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo co[K[Klxc config device add apache-web first-proxy proxy listen= tcp:9[K0.0.0.0:80 ....
+[?2004l]133;C\]666;vte.shell.preexec!\Error: No value found in "...."
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ ss -tlnp 
+[?2004l]133;C\]666;vte.shell.preexec!\State      Recv-Q     Send-Q                    Local Address:Port          Peer Address:Port    Process     
+LISTEN     0          4096                      127.0.0.53%lo:53                 0.0.0.0:*                   
+LISTEN     0          4096                         127.0.0.54:53                 0.0.0.0:*                   
+LISTEN     0          4096                          127.0.0.1:631                0.0.0.0:*                   
+LISTEN     0          32                          10.63.191.1:53                 0.0.0.0:*                   
+LISTEN     0          4096                            0.0.0.0:22                 0.0.0.0:*                   
+LISTEN     0          511                             0.0.0.0:80                 0.0.0.0:*                   
+LISTEN     0          4096                          127.0.0.1:41117              0.0.0.0:*                   
+LISTEN     0          32             [fd42:4a52:1c19:10fc::1]:53                    [::]:*                   
+LISTEN     0          4096                               [::]:22                    [::]:*                   
+LISTEN     0          511                                [::]:80                    [::]:*                   
+LISTEN     0          4096                              [::1]:631                   [::]:*                   
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ ss -tlnp | grep apacher[K2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ ss -tlnp | grep apache2[1P[1P[1@p[1@n
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ ss -tlpn | grep apache2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l]133;C\]666;vte.shell.preexec!\State      Recv-Q     Send-Q                    Local Address:Port          Peer Address:Port    Process     
+LISTEN     0          4096                      127.0.0.53%lo:53                 0.0.0.0:*                   
+LISTEN     0          4096                         127.0.0.54:53                 0.0.0.0:*                   
+LISTEN     0          4096                          127.0.0.1:631                0.0.0.0:*                   
+LISTEN     0          32                          10.63.191.1:53                 0.0.0.0:*                   
+LISTEN     0          4096                            0.0.0.0:22                 0.0.0.0:*                   
+LISTEN     0          511                             0.0.0.0:80                 0.0.0.0:*                   
+LISTEN     0          4096                          127.0.0.1:41117              0.0.0.0:*                   
+LISTEN     0          32             [fd42:4a52:1c19:10fc::1]:53                    [::]:*                   
+LISTEN     0          4096                               [::]:22                    [::]:*                   
+LISTEN     0          511                                [::]:80                    [::]:*                   
+LISTEN     0          4096                              [::1]:631                   [::]:*                   
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ ss -tlpn | grep apache2np[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kudo lxc config device add apache-web first-proxy proxy listen=tcp:0.0.0.0:80 ....[A]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ [C[C[C[C[C[C[C[C[C[34Pexec apache-web bash
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\[?2004h]0;root@apache-web: ~root@apache-web:~# ss -tlpn | grep apache2
+[?2004lLISTEN 0      511                *:80              *:*    users:(("[01;31m[Kapache2[m[K",pid=2379,fd=4),("[01;31m[Kapache2[m[K",pid=2378,fd=4),("[01;31m[Kapache2[m[K",pid=2376,fd=4))
+[?2004h]0;root@apache-web: ~root@apache-web:~# exit
+[?2004lexit
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc exec apache-web bashs -tlpn[K | grep apache2np[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kudo lxc config device add apache-web first-proxy proxy listen=tcp:0.0.0.0:80 ....[K[K[K[Kconnect=tcp:127.0.0.1:80
+[?2004l]133;C\]666;vte.shell.preexec!\Error: Failed to start device "first-proxy": Error occurred when starting proxy device: Error: Failed to listen on 0.0.0.0:80: listen tcp 0.0.0.0:80: bind: address already in use
+]666;vte.shell.postexec=1\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ sudo lxc config device add apache-web first-proxy proxy listen=tcp:0.0.0.0:80 connect=tcp:127.0.0.1:80[C[1P[1@1
+[?2004l]133;C\]666;vte.shell.preexec!\Device first-proxy added to apache-web
+]666;vte.shell.postexec=0\]7;file://devops/home/annpak/devops/codeby-devops/lesson6\]0;annpak@devops:~/devops/codeby-devops/lesson6\]666;vte.shell.precmd!\[?2004h]0;annpak@devops: ~/devops/codeby-devops/lesson6[01;32mannpak@devops[00m:[01;34m~/devops/codeby-devops/lesson6[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-10-28 00:16:46+03:00 [COMMAND_EXIT_CODE="0"]
